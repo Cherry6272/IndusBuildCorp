@@ -319,3 +319,4 @@ $(document).ready(function($) {
 function Resize() {
 	$(window).trigger('resize');
 }
+

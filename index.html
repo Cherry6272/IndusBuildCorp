@@ -1,13 +1,13 @@
 ﻿<!doctype html>
 <html lang="en" class="no-js">
 <head>
-	<title>Construct</title>
+	<title>Indus Build Corp</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='../css?family=Montserrat:300,400,700' rel='stylesheet' type='text/css'>
-	<link href="../font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">	
 	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" media="screen">
@@ -32,17 +32,87 @@
     <script src="../maps/api/js?v=3.exp&amp;sensor=false"></script>
 	<script type="text/javascript" src="js/gmap3.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<style>
+		/* Styles the card container for each service */
+.services-section .services-post {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden; /* This is essential for the image's corners to be rounded */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures all cards in a row have the same height */
+}
 
+.services-section .services-post:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Enforces uniform size and fit for all images within the service posts */
+.services-section .services-post img {
+    width: 100%;
+    height: 220px; /* A fixed height ensures all images are the same size */
+    object-fit: cover; /* This makes the image cover the area without stretching or distortion */
+    display: block;
+}
+
+/* Applies uniform padding for the text content below the image */
+.services-section .services-content {
+    padding: 25px;
+    flex-grow: 1; /* Allows the content area to expand, pushing the link to the bottom */
+    display: flex;
+    flex-direction: column;
+}
+
+.services-section .services-content h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.services-section .services-content p {
+    flex-grow: 1; /* Allows the paragraph to take up available space */
+    margin-bottom: 15px;
+}
+
+/* Styles the "Read More" link */
+.services-section .services-content a {
+    font-weight: 500;
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.services-section .services-content a:hover {
+    color: #2980b9;
+}
+
+/* Flexbox for column alignment */
+.services-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-section .col-md-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px; /* Adjusts Bootstrap's default padding for better spacing */
+}
+
+	</style>
 </head>
 <body>
-
 	<!-- Container -->
 	<div id="container">
 		<!-- Header
 		    ================================================== -->
-		<header class="clearfix">
+	
+			<header class="clearfix">	
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="top-line">
+					<div class="top-line">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8">
@@ -52,16 +122,15 @@
 										Call us:
 										<span>1234 - 56
 										<i class="fa fa-clock-o"></i>
-										working time:78 - 9012</span>
+										working time:</span>
 									</li>
+									
 									<li>
 										<i class="fa fa-envelope-o"></i>
 										Email us:
 										<span>nunforest@gmail.com</span>
 									</li>
-									<li>
-										<span>08:00 - 17:00</span>
-									</li>
+									
 								</ul>
 							</div>	
 							<div class="col-md-4">
@@ -80,40 +149,31 @@
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="index.html"><img src="images/ibclogo.png" style="height: 70px; width: 60px;" alt=""></a>
-					</div>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/ibclogo.png" alt="Indus Buildcorp Logo" style="height: 65px;padding: 4%;"></a>
+                    </div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a class="active" href="index.html">Home</a>
-							</li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<!-- <li><a href="services.html">Our Services</a>
-								<ul class="drop-down">
-									<li><a href="buildings.html">Small &amp; Large Buildings</a></li>
-									<li><a href="garden.html">Elegant Garden</a></li>
-									<li><a href="projecting.html">Perfect Projectings</a></li>
-									<li><a href="energy.html">Energy Repair</a></li>
-									<li><a href="roads.html">Roads &amp; Paths</a></li>
-									<li><a href="repairing.html">Repairing &amp; Maintenance</a></li>
-								</ul>
-							</li> -->
-							<li><a href="contact.html">Contact</a></li>
-							
-						</ul>
-					</div><!-- /.navbar-collapse -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a  href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
+
 		<!-- End Header -->
+
+		
 
 		<!-- home-section 
 			================================================== -->
@@ -213,59 +273,56 @@
 		<!-- End home section -->
 		<!-- services-section 
 			================================================== -->
-		<section class="services-section">
-			<div class="container">
-				<div class="services-box">
+			<section class="services-section">
+				<div class="container">
 					<div class="row">
-
+						<!-- Service 1 -->
 						<div class="col-md-3">
 							<div class="services-post">
 								<img src="/images/home1.png" alt="Residential & Commercial Construction">
 								<div class="services-content">
 									<h2>Residential & Commercial Construction</h2>
 									<p>We specialize in building high-quality residential apartments and durable commercial structures with modern designs and superior engineering.</p>
-									<a href="garden.html">Read More <i class="fa fa-angle-right"></i></a>
 								</div>
 							</div>
 						</div>
-
+			
+						<!-- Service 2 -->
 						<div class="col-md-3">
 							<div class="services-post">
 								<img src="/images/roads.jpg" alt="Roads & Drainage">
 								<div class="services-content">
 									<h2>Roads & Drainage</h2>
 									<p>Expertise in Asphalt & CC road construction and box-type storm water drains, ensuring strong, safe, and long-lasting infrastructure.</p>
-									<a href="buildings.html">Read More <i class="fa fa-angle-right"></i></a>
 								</div>
 							</div>
 						</div>
-
+			
+						<!-- Service 3 -->
 						<div class="col-md-3">
 							<div class="services-post">
-								<img src="upload/others/3.jpg" alt="Water & Sewage Infrastructure">
+								<img src="images/sewage.jpg" alt="Water & Sewage Infrastructure">
 								<div class="services-content">
 									<h2>Water & Sewage Infrastructure</h2>
 									<p>We deliver STP, wet well, and UGD solutions with high efficiency, meeting urban infrastructure and environmental standards.</p>
-									<a href="projecting.html">Read More <i class="fa fa-angle-right"></i></a>
 								</div>
 							</div>
 						</div>
-
+			
+						<!-- Service 4 -->
 						<div class="col-md-3">
 							<div class="services-post">
-								<img src="upload/others/4.jpg" alt="Canals & Pipeline Works">
+								<img src="images/canal.png" alt="Canals & Pipeline Works">
 								<div class="services-content">
 									<h2>Canals & Pipeline Works</h2>
 									<p>Design and execution of canal structures and pipeline networks for reliable water supply and effective distribution systems.</p>
-									<a href="projecting.html">Read More <i class="fa fa-angle-right"></i></a>
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+			
 
 		<!-- End services section -->
 
@@ -345,72 +402,67 @@
 
 		<!-- tabs-section 
 			================================================== -->
-		<section class="tabs-section">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-md-7">
-						<div class="about-us-box">
-							<h1>about us and our priorities</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.</p>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-building-o"></i></a>
-										<h2>Construction</h2>
-										<span>build homes</span>
+			<section class="tabs-section">
+				<div class="container">
+					<div class="row">
+			
+						<div class="col-md-7">
+							<div class="about-us-box">
+								<h1>About Us and Our Core Priorities</h1>
+								<p>At Indus Buildcorp, we are dedicated to shaping the future of infrastructure by delivering unparalleled quality, innovation, and sustainability in every project we undertake.</p>
+								<p>Our work is driven by a commitment to architectural excellence, responsible construction practices, and exceptional client service, ensuring every outcome is both durable and efficient.</p>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="about-us-post">
+											<a href="#"><i class="fa fa-building-o"></i></a>
+											<h2>Expert Construction</h2>
+											<span>Residential & Commercial Buildings</span>
+										</div>
+										<div class="about-us-post">
+											<a href="#"><i class="fa fa-cogs"></i></a>
+											<h2>Proactive Maintenance</h2>
+											<span>Energy Systems & Structural Repair</span>
+										</div>
+										<div class="about-us-post">
+											<a href="#"><i class="fa fa-desktop"></i></a>
+											<h2>Strategic Planning</h2>
+											<span>Innovative Architecture & Design</span>
+										</div>
 									</div>
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-cogs"></i></a>
-										<h2>Maintanance</h2>
-										<span>energy repair</span>
-									</div>
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-desktop"></i></a>
-										<h2>Good Planning</h2>
-										<span>architecture</span>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-desktop"></i></a>
-										<h2>Good Planning</h2>
-										<span>architecture</span>
-									</div>
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-users"></i></a>
-										<h2>Awesome Stuff</h2>
-										<span>1000+ workers</span>
-									</div>
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-building-o"></i></a>
-										<h2>Construction</h2>
-										<span>build homes</span>
+									<div class="col-md-6">
+										<div class="about-us-post">
+											<a href="#"><i class="fa fa-users"></i></a>
+											<h2>Our Skilled Team</h2>
+											<span>1000+ Dedicated Professionals</span>
+										</div>
+										<div class="about-us-post">
+											<a href="#"><i class="fa fa-leaf"></i></a>
+											<h2>Sustainability Focus</h2>
+											<span>Eco-Friendly Building Practices</span>
+										</div>
+										<div class="about-us-post">
+											<a href="#"><i class="fa fa-check-square-o"></i></a>
+											<h2>Quality Assurance</h2>
+											<span>Commitment to the Highest Standards</span>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="col-md-5">
-						
-						<div class="about-box">
-							<img src="upload/others/about.jpg" alt="">
-							<h2>Who we are</h2>
-							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+			
+						<div class="col-md-5">
+							<div class="about-box">
+								<img src="upload/others/about.jpg" alt="About Indus Buildcorp">
+								<h2>Who We Are</h2>
+								<p>Indus Buildcorp is a forward-thinking infrastructure company driven by a vision to create resilient, innovative, and sustainable structures that serve communities for generations.</p>
+								<p>With decades of combined industry experience, we bring unmatched expertise, a passion for excellence, and a deep commitment to our clients to every project.</p>
+							</div>
 						</div>
-
+			
 					</div>
-
 				</div>
-			</div>
-		</section>
+			</section>
+			
 		<!-- End tabs section -->
 
 		<!-- news-section 
@@ -563,65 +615,92 @@
 
 		<!-- footer 
 			================================================== -->
-		<footer>
-			<div class="container">
-				<div class="footer-widgets">
-					<div class="row">
-						<div class="col-md-3">
-							<div class="widgets">
-								<h2>About us</h2>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-								<p>Reprehenderit in voluptate velit esse cillum nulla pariatur.</p>
+			<footer style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: #fff; padding: 50px 0 0;">
+				<div class="container">
+					<div class="footer-widgets">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="widgets" style="margin-bottom: 40px;">
+									<h2 style="color: #fff; font-size: 24px; font-weight: 600; margin-bottom: 25px; position: relative;">
+										<span style="background: linear-gradient(135deg, #3498db, #5dade2); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">INDUS BUILDCORP</span>
+									</h2>
+									<p style="color: #bdc3c7; line-height: 1.8; margin-bottom: 20px;">Leading infrastructure development company committed to excellence, innovation, and sustainable construction solutions.</p>
+									<div style="margin-top: 25px;">
+										<h4 style="color: #3498db; font-size: 16px; margin-bottom: 15px;">Follow Us</h4>
+										<div style="display: flex; gap: 15px;">
+											<a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#3498db'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-facebook-f"></i></a>
+											<a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#3498db'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-twitter"></i></a>
+											<a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#3498db'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-linkedin-in"></i></a>
+											<a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#3498db'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-instagram"></i></a>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widgets">
-								<h2>Tags</h2>
-								<ul class="tag-list">
-									<li><a href="#">Interior</a></li>
-									<li><a href="#">Website</a></li>
-									<li><a href="#">Development</a></li>
-									<li><a href="#">Medicine</a></li>
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">Photography</a></li>
-								</ul>
+							<div class="col-md-3">
+								<div class="widgets" style="margin-bottom: 40px;">
+									<h2 style="color: #3498db; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Our Services</h2>
+									<ul style="list-style: none; padding: 0; margin: 0;">
+										<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Infrastructure Development</a></li>
+										<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Road Construction</a></li>
+										<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Water Management</a></li>
+										<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Commercial Buildings</a></li>
+										<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Pipeline Systems</a></li>
+									</ul>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widgets">
-								<h2>Flickr widget</h2>
-								<ul class="flickr-list">
-									<li><a href="#"><img src="upload/flickr/1.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/2.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/3.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/4.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/5.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/6.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/1.jpg" alt=""></a></li>
-									<li><a href="#"><img src="upload/flickr/2.jpg" alt=""></a></li>
-								</ul>
+							<div class="col-md-2">
+								<div class="widgets" style="margin-bottom: 40px;">
+									<h2 style="color: #3498db; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Quick Links</h2>
+									<ul style="list-style: none; padding: 0; margin: 0;">
+										<li style="margin-bottom: 12px;"><a href="index.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Home</a></li>
+										<li style="margin-bottom: 12px;"><a href="about.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>About Us</a></li>
+										<li style="margin-bottom: 12px;"><a href="projects.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Projects</a></li>
+										<li style="margin-bottom: 12px;"><a href="contact.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Contact</a></li>
+									</ul>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widgets info-widget">
-								<h2>Working Hours</h2>
-								<p class="first-par">You can contact or visit us during working time.</p>
-								<p><span>Tel: </span> 1234 - 5678 - 9012</p>
-								<p><span>Email: </span> nunforest@gmail.com</p>
-								<p><span>Working Hours: </span> 8:00 a.m - 17:00 a.m</p>
+							<div class="col-md-3">
+								<div class="widgets info-widget" style="margin-bottom: 40px;">
+									<h2 style="color: #3498db; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Contact Info</h2>
+									<div style="margin-bottom: 15px;">
+										<i class="fas fa-map-marker-alt" style="color: #3498db; margin-right: 10px; width: 16px;"></i>
+										<span style="color: #bdc3c7; font-size: 14px;">Mumbai, Maharashtra, India</span>
+									</div>
+									<div style="margin-bottom: 15px;">
+										<i class="fas fa-phone" style="color: #3498db; margin-right: 10px; width: 16px;"></i>
+										<span style="color: #bdc3c7; font-size: 14px;">+91 1234 567 890</span>
+									</div>
+									<div style="margin-bottom: 15px;">
+										<i class="fas fa-envelope" style="color: #3498db; margin-right: 10px; width: 16px;"></i>
+										<span style="color: #bdc3c7; font-size: 14px;">info@indusbuildcorp.com</span>
+									</div>
+									<div style="margin-bottom: 15px;">
+										<i class="fas fa-clock" style="color: #3498db; margin-right: 10px; width: 16px;"></i>
+										<span style="color: #bdc3c7; font-size: 14px;">Mon - Fri: 08:00 - 17:00</span>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="last-line">
-				<div class="container">
-					<p class="copyright">
-						&copy; Copyright 2015. "Construct" by Nunforest. All rights reserved.
-					</p>
+				<div class="last-line" style="background: rgba(0,0,0,0.2); padding: 20px 0; margin-top: 40px;">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-md-6">
+								<p class="copyright" style="color: #bdc3c7; margin: 0; font-size: 14px;">
+									&copy; 2024 Indus Buildcorp. All rights reserved.
+								</p>
+							</div>
+							<div class="col-md-6 text-right">
+								<p style="color: #bdc3c7; margin: 0; font-size: 14px;">
+									Designed with <i class="fas fa-heart" style="color: #3498db;"></i> for Excellence
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+		
 		<!-- End footer -->
 
 	</div>
