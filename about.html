@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en" class="no-js">
 <head>
 	<title>About Us - Indus Buildcorp | Leading Infrastructure Development Company</title>
@@ -18,7 +18,7 @@
 	<style>
         /* Enhanced Styles for the Expert Team Section */
         .team-section {
-            padding: 80px 0; /* Increased vertical padding for the whole section */
+            padding: 10px; /* Increased vertical padding for the whole section */
             background: #f8f9fa; /* A light background color for contrast */
         }
 
@@ -26,7 +26,7 @@
             background: #ffffff;
             border-radius: 20px; /* Softer, more modern rounded corners */
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
-            margin: 15px;
+            margin: 5px;
             overflow: hidden;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -36,22 +36,29 @@
             box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
         }
         
-        /* Adds padding around the image */
+        /* Image container: fixed height, center image without cropping */
         .gallery-team {
-            padding: 15px 15px 0; /* Adds space above and on the sides of the image */
+            padding: 10px 10px 0 10px; /* Tighter padding around the image */
             background-color: #fff;
+            height: 300px; /* Fit the image size */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+			max-width: 280px;  /* Reduced from auto */
+        	margin: 0 auto; 
         }
 
         .gallery-team img {
-            width: 100%;
-            height: 280px; /* Adjusted height for better proportion */
-            object-fit: cover;
-            object-position: top; /* Ensures the top of the image is prioritized */
+            width: auto;
+            max-width: 400px;
+            max-height: 400px;
+            object-fit: contain;
+            object-position: center; /* Center the photo within the frame */
             border-radius: 15px; /* Rounded corners for the image itself */
         }
 
         .team-content {
-            padding: 20px 25px 30px; /* Generous padding for the text content */
+            padding: 5px 5px 5px; /* Reduced padding for less white space */
             text-align: center;
         }
 
@@ -79,39 +86,39 @@
 	
 			<header class="clearfix">	
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-					<div class="top-line">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8">
-								<ul class="info-list">
-									<li>
-										<i class="fa fa-phone"></i>
-										Call us:
-										<span>1234 - 56
-										<i class="fa fa-clock-o"></i>
-										working time:</span>
-									</li>
-									<li>
-										<i class="fa fa-envelope-o"></i>
-										Email us:
-										<span>nunforest@gmail.com</span>
-									</li>
-									
-								</ul>
-							</div>	
-							<div class="col-md-4">
-								<ul class="social-icons">
-									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
-									<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-								</ul>
-							</div>	
+						<div class="top-line">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8">
+									<ul class="info-list">
+										<li>
+											<i class="fa fa-phone"></i>
+											Call us:
+											<span>080-41684646 / 080-41304747</span>
+										</li>
+										<li>
+											<i class="fa fa-envelope-o"></i>
+											Email us:
+											<span>info@indusbuildcorp.com</span>
+										</li>
+										<li>
+											<span>08:00 - 17:00</span>
+										</li>
+									</ul>
+								</div>	
+								<div class="col-md-4">
+									<ul class="social-icons">
+										<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+										<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+										<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+									</ul>
+								</div>	
+							</div>
 						</div>
 					</div>
-				</div>
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -121,8 +128,13 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="images/ibclogo.png" alt="Indus Buildcorp Logo" style="height: 65px;padding: 4%;"></a>
-                    </div>
+		<a class="navbar-brand" href="index.html" 
+         style="display: flex; align-items: center; height: 80px;">
+        <img src="images/ibclogo.png" 
+             alt="Indus Buildcorp Logo"
+             style="height: 12rem; width: 100%;  margin-top: 2px;">
+      	</a>                   
+	  </div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -186,7 +198,7 @@
 										</div>
 										<div>
 											<h4 style="color: #2c3e50; font-size: 16px; font-weight: 600; margin: 0 0 5px;">Quality Assurance</h4>
-											<p style="color: #7f8c8d; font-size: 14px; margin: 0; line-height: 1.6;">ISO certified processes ensuring excellence</p>
+											<p style="color: #7f8c8d; font-size: 14px; margin: 0; line-height: 1.6;">Quality processes ensuring excellence</p>
 										</div>
 									</div>
 								</div>
@@ -262,53 +274,53 @@
 				<div class="row">
 					<div class="col-md-4" style="margin-bottom: 30px;">
 						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#3498db'; this.style.boxShadow='0 20px 50px rgba(52, 152, 219, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
-							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(230, 126, 34, 0.1), rgba(243, 156, 18, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
-								<i class="fas fa-road" style="font-size: 36px; color: #e67e22;"></i>
+							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(93, 173, 226, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
+								<i class="fas fa-road" style="font-size: 36px; color: #3498db;"></i>
 							</div>
 							<h3 style="color: #2c3e50; margin-bottom: 15px; font-size: 22px; font-weight: 600;">Infrastructure Development</h3>
 							<p style="color: #7f8c8d; font-size: 15px; line-height: 1.7; margin: 0;">Roads, Drainage & Urban Planning solutions for modern cities</p>
 						</div>
 					</div>
 					<div class="col-md-4" style="margin-bottom: 30px;">
-						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#e67e22'; this.style.boxShadow='0 20px 50px rgba(230, 126, 34, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
-							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(230, 126, 34, 0.1), rgba(243, 156, 18, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
-								<i class="fas fa-water" style="font-size: 36px; color: #e67e22;"></i>
+						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#3498db'; this.style.boxShadow='0 20px 50px rgba(52, 152, 219, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
+							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(93, 173, 226, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
+								<i class="fas fa-water" style="font-size: 36px; color: #3498db;"></i>
 							</div>
 							<h3 style="color: #2c3e50; margin-bottom: 15px; font-size: 22px; font-weight: 600;">Water Management</h3>
 							<p style="color: #7f8c8d; font-size: 15px; line-height: 1.7; margin: 0;">Advanced pipeline systems and sewage infrastructure solutions</p>
 						</div>
 					</div>
 					<div class="col-md-4" style="margin-bottom: 30px;">
-						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#e67e22'; this.style.boxShadow='0 20px 50px rgba(230, 126, 34, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
-							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(230, 126, 34, 0.1), rgba(243, 156, 18, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
-								<i class="fas fa-building" style="font-size: 36px; color: #e67e22;"></i>
+						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#3498db'; this.style.boxShadow='0 20px 50px rgba(52, 152, 219, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
+							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(93, 173, 226, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
+								<i class="fas fa-building" style="font-size: 36px; color: #3498db;"></i>
 							</div>
 							<h3 style="color: #2c3e50; margin-bottom: 15px; font-size: 22px; font-weight: 600;">Construction Excellence</h3>
 							<p style="color: #7f8c8d; font-size: 15px; line-height: 1.7; margin: 0;">Residential & Commercial building projects with precision</p>
 						</div>
 					</div>
 					<div class="col-md-4" style="margin-bottom: 30px;">
-						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#e67e22'; this.style.boxShadow='0 20px 50px rgba(230, 126, 34, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
-							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(230, 126, 34, 0.1), rgba(243, 156, 18, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
-								<i class="fas fa-shield-alt" style="font-size: 36px; color: #e67e22;"></i>
+						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#3498db'; this.style.boxShadow='0 20px 50px rgba(52, 152, 219, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
+							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(93, 173, 226, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
+								<i class="fas fa-shield-alt" style="font-size: 36px; color: #3498db;"></i>
 							</div>
 							<h3 style="color: #2c3e50; margin-bottom: 15px; font-size: 22px; font-weight: 600;">Quality Assurance</h3>
-							<p style="color: #7f8c8d; font-size: 15px; line-height: 1.7; margin: 0;">ISO certified processes ensuring safety & standards compliance</p>
+							<p style="color: #7f8c8d; font-size: 15px; line-height: 1.7; margin: 0;">Robust processes ensuring safety & standards compliance</p>
 						</div>
 					</div>
 					<div class="col-md-4" style="margin-bottom: 30px;">
-						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#e67e22'; this.style.boxShadow='0 20px 50px rgba(230, 126, 34, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
-							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(230, 126, 34, 0.1), rgba(243, 156, 18, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
-								<i class="fas fa-users" style="font-size: 36px; color: #e67e22;"></i>
+						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#3498db'; this.style.boxShadow='0 20px 50px rgba(52, 152, 219, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
+							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(93, 173, 226, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
+								<i class="fas fa-users" style="font-size: 36px; color: #3498db;"></i>
 							</div>
 							<h3 style="color: #2c3e50; margin-bottom: 15px; font-size: 22px; font-weight: 600;">Expert Team</h3>
 							<p style="color: #7f8c8d; font-size: 15px; line-height: 1.7; margin: 0;">Skilled engineers & professionals with proven expertise</p>
 						</div>
 					</div>
 					<div class="col-md-4" style="margin-bottom: 30px;">
-						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#e67e22'; this.style.boxShadow='0 20px 50px rgba(230, 126, 34, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
-							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(230, 126, 34, 0.1), rgba(243, 156, 18, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
-								<i class="fas fa-clock" style="font-size: 36px; color: #e67e22;"></i>
+						<div class="about-us-post" style="padding: 35px 30px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); transition: all 0.3s ease; text-align: center; height: 100%; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#3498db'; this.style.boxShadow='0 20px 50px rgba(52, 152, 219, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.08)'">
+							<div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(93, 173, 226, 0.1)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
+								<i class="fas fa-clock" style="font-size: 36px; color: #3498db;"></i>
 							</div>
 							<h3 style="color: #2c3e50; margin-bottom: 15px; font-size: 22px; font-weight: 600;">Timely Delivery</h3>
 							<p style="color: #7f8c8d; font-size: 15px; line-height: 1.7; margin: 0;">On-schedule project completion with efficient management</p>
@@ -428,7 +440,7 @@
                 </div>
 
                 <div class="team-box owl-wrapper">
-                    <div class="owl-carousel" data-num="3">
+                    <div class="owl-carousel" data-num="2">
                     
                         <!-- Team Member 1 -->
                         <div class="item">
@@ -456,103 +468,102 @@
                             </div>
                         </div>
 
-						
-
-                       
-
                     </div>
                 </div>
             </div>
         </section>
 		<!-- End team section -->
 
+
 		<!-- footer 
 			================================================== -->
-		<footer style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: #fff; padding: 50px 0 0;">
-			<div class="container">
-				<div class="footer-widgets">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="widgets" style="margin-bottom: 40px;">
-								<h2 style="color: #fff; font-size: 24px; font-weight: 600; margin-bottom: 25px; position: relative;">
-									<span style="background: linear-gradient(135deg, #e67e22, #f39c12); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">INDUS BUILDCORP</span>
-								</h2>
-								<p style="color: #bdc3c7; line-height: 1.8; margin-bottom: 20px;">Leading infrastructure development company committed to excellence, innovation, and sustainable construction solutions.</p>
-								<div style="margin-top: 25px;">
-									<h4 style="color: #e67e22; font-size: 16px; margin-bottom: 15px;">Follow Us</h4>
-									<div style="display: flex; gap: 15px;">
-										<a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#e67e22'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-facebook-f"></i></a>
-										<a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#e67e22'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-twitter"></i></a>
-										<a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#e67e22'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-linkedin-in"></i></a>
-										<a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#e67e22'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-instagram"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widgets" style="margin-bottom: 40px;">
-								<h2 style="color: #e67e22; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Our Services</h2>
-								<ul style="list-style: none; padding: 0; margin: 0;">
-									<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#e67e22'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Infrastructure Development</a></li>
-									<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#e67e22'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Road Construction</a></li>
-									<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#e67e22'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Water Management</a></li>
-									<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#e67e22'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Commercial Buildings</a></li>
-									<li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#e67e22'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Pipeline Systems</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="widgets" style="margin-bottom: 40px;">
-								<h2 style="color: #e67e22; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Quick Links</h2>
-								<ul style="list-style: none; padding: 0; margin: 0;">
-									<li style="margin-bottom: 12px;"><a href="index.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#e67e22'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Home</a></li>
-									<li style="margin-bottom: 12px;"><a href="about.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#e67e22'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>About Us</a></li>
-									<li style="margin-bottom: 12px;"><a href="projects.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#e67e22'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Projects</a></li>
-									<li style="margin-bottom: 12px;"><a href="contact.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#e67e22'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px;"></i>Contact</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widgets info-widget" style="margin-bottom: 40px;">
-								<h2 style="color: #e67e22; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Contact Info</h2>
-								<div style="margin-bottom: 15px;">
-									<i class="fas fa-map-marker-alt" style="color: #e67e22; margin-right: 10px; width: 16px;"></i>
-									<span style="color: #bdc3c7; font-size: 14px;">Mumbai, Maharashtra, India</span>
-								</div>
-								<div style="margin-bottom: 15px;">
-									<i class="fas fa-phone" style="color: #e67e22; margin-right: 10px; width: 16px;"></i>
-									<span style="color: #bdc3c7; font-size: 14px;">+91 1234 567 890</span>
-								</div>
-								<div style="margin-bottom: 15px;">
-									<i class="fas fa-envelope" style="color: #e67e22; margin-right: 10px; width: 16px;"></i>
-									<span style="color: #bdc3c7; font-size: 14px;">info@indusbuildcorp.com</span>
-								</div>
-								<div style="margin-bottom: 15px;">
-									<i class="fas fa-clock" style="color: #e67e22; margin-right: 10px; width: 16px;"></i>
-									<span style="color: #bdc3c7; font-size: 14px;">Mon - Fri: 08:00 - 17:00</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="last-line" style="background: rgba(0,0,0,0.2); padding: 20px 0; margin-top: 40px;">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-md-6">
-							<p class="copyright" style="color: #bdc3c7; margin: 0; font-size: 14px;">
-								&copy; 2024 Indus Buildcorp. All rights reserved.
-							</p>
-						</div>
-						<div class="col-md-6 text-right">
-							<p style="color: #bdc3c7; margin: 0; font-size: 14px;">
-								Designed with <i class="fas fa-heart" style="color: #e67e22;"></i> for Excellence
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+<!-- Footer section with blue theme -->
+<footer style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: #fff; padding: 50px 0 0;">
+    <div class="container">
+        <div class="footer-widgets">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="widgets" style="margin-bottom: 40px;">
+                        <h2 style="color: #fff; font-size: 24px; font-weight: 600; margin-bottom: 25px; position: relative;">
+                            <span style="background: linear-gradient(135deg, #3498db, #5dade2); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">INDUS BUILDCORP</span>
+                        </h2>
+                        <p style="color: #bdc3c7; line-height: 1.8; margin-bottom: 20px;">Leading infrastructure development company committed to excellence, innovation, and sustainable construction solutions.</p>
+                        <div style="margin-top: 25px;">
+                            <h4 style="color: #3498db; font-size: 16px; margin-bottom: 15px;">Follow Us</h4>
+                            <div style="display: flex; gap: 15px;">
+                                <a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#3498db'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#3498db'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-twitter"></i></a>
+                                <a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#3498db'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" onmouseover="this.style.background='#3498db'; this.style.color='#fff'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="widgets" style="margin-bottom: 40px;">
+                        <h2 style="color: #3498db; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Our Services</h2>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px; color: #3498db;"></i>Infrastructure Development</a></li>
+                            <li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px; color: #3498db;"></i>Road Construction</a></li>
+                            <li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px; color: #3498db;"></i>Water Management</a></li>
+                            <li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px; color: #3498db;"></i>Commercial Buildings</a></li>
+                            <li style="margin-bottom: 12px;"><a href="#" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px; color: #3498db;"></i>Pipeline Systems</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="widgets" style="margin-bottom: 40px;">
+                        <h2 style="color: #3498db; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Quick Links</h2>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li style="margin-bottom: 12px;"><a href="index.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px; color: #3498db;"></i>Home</a></li>
+                            <li style="margin-bottom: 12px;"><a href="about.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px; color: #3498db;"></i>About Us</a></li>
+                            <li style="margin-bottom: 12px;"><a href="projects.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px; color: #3498db;"></i>Projects</a></li>
+                            <li style="margin-bottom: 12px;"><a href="contact.html" style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;" onmouseover="this.style.color='#3498db'" onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right" style="margin-right: 8px; font-size: 12px; color: #3498db;"></i>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="widgets info-widget" style="margin-bottom: 40px;">
+                        <h2 style="color: #3498db; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Contact Info</h2>
+                        <div style="margin-bottom: 15px;">
+                            <i class="fas fa-map-marker-alt" style="color: #3498db; margin-right: 10px; width: 16px;"></i>
+                            <span style="color: #bdc3c7; font-size: 14px;">Bengaluru, Karnataka, India</span>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <i class="fas fa-phone" style="color: #3498db; margin-right: 10px; width: 16px;"></i>
+                            <span style="color: #bdc3c7; font-size: 14px; display: block;">080-41684646</span>
+                            <span style="color: #bdc3c7; font-size: 14px; display: block; margin-top: 5px;">080-41304747</span>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <i class="fas fa-envelope" style="color: #3498db; margin-right: 10px; width: 16px;"></i>
+                            <span style="color: #bdc3c7; font-size: 14px;">info@indusbuildcorp.com</span>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <i class="fas fa-clock" style="color: #3498db; margin-right: 10px; width: 16px;"></i>
+                            <span style="color: #bdc3c7; font-size: 14px;">Mon - Fri: 08:00 - 17:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last-line" style="background: rgba(0,0,0,0.2); padding: 20px 0; margin-top: 40px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright" style="color: #bdc3c7; margin: 0; font-size: 14px;">
+                        &copy; 2024 Indus Buildcorp. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <p style="color: #bdc3c7; margin: 0; font-size: 14px;">
+                        Designed with <i class="fas fa-heart" style="color: #3498db;"></i> for Excellence
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 		<!-- End footer -->
 
 	</div>

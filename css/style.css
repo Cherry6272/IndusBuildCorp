@@ -116,6 +116,20 @@ website:    http://www.themepunch.com
 .navbar-brand span {
   color: #a0ce4e;
 }
+/* Global logo sizing */
+.navbar-brand img {
+  height: 100px !important;
+  max-height: 100px !important;
+  padding: 2px !important;
+  display: block;
+}
+@media (max-width: 767px) {
+  .navbar-brand img {
+    height: 60px !important;
+    max-height: 60px !important;
+    padding: 6px 0 !important;
+  }
+}
 .navbar-nav {
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -541,7 +555,7 @@ section.services-section .services-box .services-post .services-content a:hover 
   margin-right: -15px;
 }
 .portfolio-section .portfolio-box.owl-wrapper .item {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 .portfolio-section .portfolio-box.iso-call {
   /* match item padding to avoid edge gaps */
@@ -1185,7 +1199,7 @@ section.services-section .services-box .services-post .services-content a:hover 
   margin-right: -15px;
 }
 .team-section .team-box .item {
-  padding: 0 15px;
+  padding: 5px;
 }
 .team-section .team-box .team-post .gallery-team {
   position: relative;
@@ -2008,4 +2022,1331 @@ footer p {
   .blog-section .blog-box .autor-post .autor-content {
     margin-left: 0;
   }
+}
+@media (max-width: 480px) {
+    /* Container adjustments */
+    .boxedcontainer {
+        padding: 0px 15px;
+    }
+    
+    /* Header optimizations */
+    .top-line {
+        display: none;
+    }
+    
+    #container {
+        padding-top: 63px;
+    }
+    
+    .navbar-brand {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+    
+    .navbar-brand img {
+        height: 50px !important;
+        max-height: 50px !important;
+        padding: 4px 0 !important;
+    }
+    
+    .navbar-toggle {
+        margin-top: 10px;
+    }
+    
+    /* Typography */
+    .title-section h1 {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+    
+    .page-banner-section h1 {
+        font-size: 24px;
+        letter-spacing: 1.5px;
+    }
+    
+    /* Banner section */
+    .banner-section {
+        padding: 25px 0;
+    }
+    
+    .banner-section h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .banner-section a {
+        margin-left: 0;
+        margin-top: 10px;
+        display: block;
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+    
+    /* Home slider captions */
+    #home-section .tp-caption.small_text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    #home-section .tp-caption.finewide_medium_white {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 1.5px;
+    }
+    
+    /* Services section */
+    section.services-section {
+        padding: 40px 0 10px;
+    }
+    
+    section.services-section .services-box .services-post .services-content {
+        padding-right: 0;
+    }
+    
+    /* Portfolio */
+    .portfolio-section {
+        padding: 40px 0;
+    }
+    
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+        padding: 10px;
+    }
+    
+    .portfolio-section ul.filter {
+        margin-bottom: 30px;
+    }
+    
+    .portfolio-section ul.filter li {
+        display: block;
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    .portfolio-section ul.filter li a {
+        font-size: 12px;
+    }
+    
+    /* Tabs section */
+    .tabs-section {
+        padding: 40px 0;
+    }
+    
+    .tabs-section .about-box {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    
+    /* News section */
+    .news-section {
+        padding: 40px 0 20px;
+    }
+    
+    /* Quote section */
+    .quote-section {
+        padding: 30px 0;
+    }
+    
+    .quote-section .quote-box {
+        padding: 20px;
+    }
+    
+    /* Testimonial section */
+    .testimonial-section {
+        padding: 40px 0 30px;
+    }
+    
+    .testimonial-section .testimonial-box p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    
+    /* Team section */
+    .team-section {
+        padding: 40px 0;
+    }
+    
+    .team-section .team-box .team-post .gallery-team ul.social-list {
+        opacity: 1;
+        top: 10px;
+        right: 10px;
+    }
+    
+    /* Blog section */
+    .blog-section {
+        padding: 40px 0 10px;
+    }
+    
+    .blog-section .blog-box .blog-post iframe {
+        height: 200px;
+    }
+    
+    .blog-section .blog-box .single-post blockquote {
+        margin-left: 0;
+        padding-left: 15px;
+        border-left-width: 3px;
+    }
+    
+    .blog-section .blog-box .comment-section ul li .comment-box img {
+        max-width: 50px;
+    }
+    
+    .blog-section .blog-box .comment-section ul li .comment-box .comment-content {
+        margin-left: 65px;
+    }
+    
+    .blog-section .blog-box .comment-section ul.depth .comment-box {
+        padding-left: 0;
+    }
+    
+    .blog-section .blog-box .autor-post img {
+        width: 100%;
+        float: none;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .blog-section .blog-box .autor-post .autor-content {
+        margin-left: 0;
+    }
+    
+    /* About/Single page section */
+    .about-section,
+    .single-page-section {
+        padding: 40px 0;
+    }
+    
+    .about-section iframe {
+        height: 200px;
+    }
+    
+    /* Contact section */
+    .contact-section {
+        padding: 40px 0 30px;
+    }
+    
+    #map {
+        height: 300px;
+    }
+    
+    /* Footer */
+    footer {
+        padding-top: 40px;
+    }
+    
+    footer .footer-widgets {
+        padding-bottom: 20px;
+    }
+    
+    footer .footer-widgets .widgets {
+        margin-bottom: 30px;
+    }
+    
+    /* Owl carousel controls */
+    .owl-theme .owl-controls {
+        left: 10px;
+        right: 10px;
+    }
+    
+    .owl-theme .owl-controls .owl-buttons div {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    
+    /* Page banner */
+    .page-banner-section {
+        padding: 30px 0;
+    }
+    
+    .page-banner-section h1 {
+        float: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .page-banner-section ul.page-depth {
+        float: none;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .page-banner-section ul.page-depth li {
+        margin-left: 5px;
+        font-size: 11px;
+    }
+}
+
+/* Small Mobile Devices - Landscape (481px - 600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 50%;
+        height: auto;
+        min-height: 280px;
+    }
+    
+    .navbar-brand img {
+        height: 55px !important;
+        max-height: 55px !important;
+    }
+    
+    .banner-section a {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    #home-section .tp-caption.finewide_medium_white {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .blog-section .blog-box .blog-post iframe {
+        height: 250px;
+    }
+    
+    .about-section iframe {
+        height: 250px;
+    }
+}
+
+/* Small Tablets - Portrait (601px - 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 50%;
+        height: auto;
+        min-height: 300px;
+    }
+    
+    .navbar-brand img {
+        height: 60px !important;
+        max-height: 60px !important;
+    }
+    
+    #home-section .tp-caption.finewide_medium_white {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    
+    .blog-section .blog-box .blog-post iframe {
+        height: 300px;
+    }
+    
+    .about-section iframe {
+        height: 280px;
+    }
+    
+    .team-section .team-box .item {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Tablets and Small Laptops (769px - 991px) */
+@media (min-width: 769px) and (max-width: 991px) {
+    /* Top line adjustments */
+    .top-line ul.info-list {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .top-line ul.social-icons {
+        text-align: center;
+    }
+    
+    /* Navigation */
+    .navbar-brand {
+        padding: 12px 15px;
+    }
+    
+    .navbar-brand img {
+        height: 70px !important;
+        max-height: 70px !important;
+    }
+    
+    .navbar-nav > li > a {
+        padding: 28px 12px;
+        font-size: 12px;
+    }
+    
+    /* Banner */
+    .banner-section a {
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    
+    /* Tabs section */
+    .tabs-section ul.nav-tabs {
+        margin-bottom: 30px;
+    }
+    
+    .tabs-section .tab-pane img {
+        margin-bottom: 20px;
+    }
+    
+    .tabs-section .about-box {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+    
+    /* Quote section */
+    .quote-section .text-box {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    /* Portfolio */
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 50%;
+        height: 300px;
+    }
+    
+    .portfolio-section ul.filter li {
+        margin: 0 10px;
+    }
+    
+    /* Team section */
+    .team-section .team-box .item {
+        width: 50%;
+        float: left;
+    }
+    
+    /* Blog */
+    .blog-section .blog-box .blog-post iframe {
+        height: 350px;
+    }
+    
+    .about-section iframe {
+        height: 320px;
+    }
+}
+
+/* Large Tablets and Small Desktops (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .boxedcontainer {
+        max-width: 970px;
+    }
+    
+    .navbar-nav > li > a {
+        padding: 32px 12px;
+        font-size: 12px;
+    }
+    
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 50%;
+        height: 300px;
+    }
+    
+    .portfolio-section ul.filter li {
+        margin: 0 12px;
+    }
+    
+    .banner-section a {
+        margin-left: 40px;
+    }
+}
+
+/* Standard Desktops and Laptops (1200px - 1439px) */
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .boxedcontainer {
+        max-width: 1170px;
+    }
+    
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 33.3333%;
+        height: 300px;
+    }
+}
+
+/* ===================================
+   LOGO LEFT - INCREASED PADDING
+   =================================== */
+
+/* Desktop/Laptop - Increased padding */
+@media (min-width: 768px) {
+    .navbar-header {
+        position: relative;
+        float: left;
+        left: auto;
+        transform: none;
+    }
+    
+    .navbar-brand {
+        float: left !important;
+        position: relative !important;
+        left: 0 !important;
+        text-align: left;
+        padding: 20px 30px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        display: block;
+    }
+    
+    /* Navigation items stay on the right */
+    .navbar-nav {
+        float: right;
+    }
+}
+
+/* Tablets and small laptops (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        padding: 18px 25px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 60px !important;
+        height: 60px !important;
+        width: auto;
+    }
+}
+
+/* Standard laptops and desktops (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+        padding: 20px 35px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 70px !important;
+        height: 70px !important;
+        width: auto;
+    }
+}
+
+/* Large desktops (1200px and above) */
+@media (min-width: 1200px) {
+    .navbar-brand {
+        padding: 25px 40px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 80px !important;
+        height: 80px !important;
+        width: auto;
+    }
+}
+
+/* ===================================
+   MOBILE - INCREASED PADDING
+   =================================== */
+
+/* Logo on LEFT for mobile devices */
+@media (max-width: 767px) {
+    .navbar-header {
+        width: 100%;
+        position: relative !important;
+        display: block !important;
+        height: auto;
+        left: auto !important;
+        transform: none !important;
+    }
+    
+    .navbar-brand {
+        float: left !important;
+        position: absolute !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+        padding-left: 20px !important; /* Increased left padding */
+        text-align: left !important;
+    }
+    
+    .navbar-toggle {
+        float: right !important;
+        position: absolute !important;
+        right: 0 !important;
+        margin-right: 20px !important; /* Increased right margin */
+    }
+    
+    .navbar-header::after,
+    .navbar-header::before {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/* Extra small mobile (320px - 480px) */
+@media (max-width: 480px) {
+    .navbar-default {
+        min-height: 70px; /* Increased height for more padding */
+    }
+    
+    .navbar-header {
+        height: 70px;
+    }
+    
+    .navbar-brand {
+        padding: 12px 20px !important; /* Increased padding: top/bottom 12px, left/right 20px */
+        margin-bottom: 10px;
+    }
+    
+    .navbar-brand img {
+        max-height: 45px !important;
+        height: 45px !important;
+        width: auto;
+    }
+    
+    .navbar-toggle {
+        margin: 17px 20px 17px 0; /* Increased margin */
+    }
+}
+
+/* Small mobile (481px - 600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+    .navbar-default {
+        min-height: 75px;
+    }
+    
+    .navbar-header {
+        height: 75px;
+    }
+    
+    .navbar-brand {
+        padding: 15px 25px !important; /* Increased padding */
+        margin-bottom: 10px;
+    }
+    
+    .navbar-brand img {
+        max-height: 50px !important;
+        height: 50px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 18px 25px 18px 0;
+    }
+}
+
+/* Tablets portrait (601px - 767px) */
+@media (min-width: 601px) and (max-width: 767px) {
+    .navbar-default {
+        min-height: 80px;
+    }
+    
+    .navbar-header {
+        height: 80px;
+    }
+    
+    .navbar-brand {
+        padding: 18px 30px !important;
+        margin-bottom: 10px; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 55px !important;
+        height: 55px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 20px 30px 20px 0;
+    }
+}
+
+/* Ultra small devices (Galaxy Fold - 280px - 320px) */
+@media (max-width: 320px) {
+    .navbar-brand {
+        padding: 10px 15px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 40px !important;
+        height: 40px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 15px 15px 15px 0;
+    }
+    
+    .navbar-default {
+        min-height: 65px;
+    }
+    
+    .navbar-header {
+        height: 65px;
+    }
+}
+
+
+/* Large Desktops (1440px - 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .boxedcontainer {
+        max-width: 1320px;
+    }
+    
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 33.3333%;
+        height: 320px;
+    }
+    
+    #home-section .tp-caption.finewide_medium_white {
+        font-size: 42px;
+        line-height: 56px;
+    }
+}
+
+/* Extra Large Desktops and 4K Screens (1920px+) */
+@media (min-width: 1920px) {
+    .boxedcontainer {
+        max-width: 1600px;
+    }
+    
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 25%;
+        height: 350px;
+    }
+    
+    #home-section .tp-caption.finewide_medium_white {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    
+    .title-section h1 {
+        font-size: 22px;
+    }
+    
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+/* ===================================
+   ORIENTATION-SPECIFIC ADJUSTMENTS
+   =================================== */
+
+/* Mobile Landscape Orientation */
+@media (max-width: 991px) and (orientation: landscape) {
+    #home-section .tp-caption.finewide_medium_white {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    
+    .page-banner-section {
+        padding: 25px 0;
+    }
+    
+    .testimonial-section {
+        padding: 50px 0 30px;
+    }
+}
+
+/* Tablet Portrait Orientation */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 50%;
+    }
+    
+    .tabs-section .about-box {
+        margin-top: 30px;
+    }
+}
+
+/* ===================================
+   HIGH DPI / RETINA DISPLAYS
+   =================================== */
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+    .navbar-brand img,
+    img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* ===================================
+   PRINT STYLES
+   =================================== */
+
+@media print {
+    .navbar-default,
+    .top-line,
+    footer,
+    .banner-section,
+    .quote-section,
+    .navbar-toggle,
+    .owl-controls,
+    ul.filter {
+        display: none !important;
+    }
+    
+    #container {
+        padding-top: 0 !important;
+    }
+    
+    body {
+        font-size: 12pt;
+    }
+    
+    h1, h2 {
+        page-break-after: avoid;
+    }
+    
+    img {
+        max-width: 100% !important;
+    }
+}
+
+/* ===================================
+   ACCESSIBILITY & REDUCED MOTION
+   =================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ===================================
+   EXISTING RESPONSIVE STYLES (CONSOLIDATED)
+   =================================== */
+
+@media (max-width: 767px) {
+    /* Navigation */
+    .navbar-toggle {
+        margin-top: 14px;
+    }
+    
+    .navbar-brand {
+        padding-bottom: 17px;
+    }
+    
+    .navbar-nav > li > a {
+        padding: 5px 15px;
+    }
+    
+    /* Dropdown menu adjustments for mobile */
+    ul.drop-down {
+        position: relative;
+        opacity: 1;
+        display: block;
+        top: inherit;
+        left: inherit;
+        width: 100%;
+        border-top: none;
+        padding: 5px 0;
+    }
+    
+    ul.drop-down li a {
+        padding: 5px 20px;
+    }
+    
+    /* Owl carousel */
+    .owl-theme .owl-controls {
+        left: 15px;
+        right: 15px;
+    }
+}
+
+/* ===================================
+   FOLDABLE DEVICES SUPPORT
+   =================================== */
+
+/* Foldable devices unfolded state */
+@media (min-width: 600px) and (max-width: 900px) and (min-height: 700px) {
+    .portfolio-section .portfolio-box.iso-call .project-post {
+        width: 50%;
+    }
+    
+    .tabs-section .about-box {
+        padding-left: 10px;
+    }
+}
+
+/* Samsung Galaxy Fold specific */
+@media (max-width: 280px) {
+    .navbar-brand {
+        font-size: 14px;
+    }
+    
+    .boxedcontainer {
+        padding: 0 10px;
+    }
+    
+    .banner-section a {
+        font-size: 10px;
+        padding: 8px 15px;
+    }
+}
+
+/* ===================================
+   LOGO FIX FOR MOBILE SCREENS
+   =================================== */
+
+/* Extra Small Devices - Logo overflow fix */
+@media (max-width: 480px) {
+    /* Navbar adjustments */
+    .navbar-default {
+        min-height: 65px;
+        height: auto;
+    }
+    
+    .navbar-header {
+        height: 65px;
+        display: flex;
+        align-items: center;
+    }
+    
+    /* Logo/Brand sizing */
+    .navbar-brand {
+        padding: 8px 15px !important;
+        height: auto !important;
+        line-height: normal;
+    }
+    
+    .navbar-brand img {
+        max-height: 45px !important;
+        height: 45px !important;
+        width: auto !important;
+        display: block;
+        object-fit: contain;
+    }
+    
+    /* Hamburger menu positioning */
+    .navbar-toggle {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Small Mobile Devices - Logo sizing */
+@media (min-width: 481px) and (max-width: 600px) {
+    .navbar-default {
+        min-height: 70px;
+        height: auto;
+    }
+    
+    .navbar-header {
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar-brand {
+        padding: 10px 15px !important;
+        height: auto !important;
+    }
+    
+    .navbar-brand img {
+        max-height: 50px !important;
+        height: 50px !important;
+        width: auto !important;
+        object-fit: contain;
+    }
+}
+
+/* Tablets - Logo sizing */
+@media (min-width: 601px) and (max-width: 768px) {
+    .navbar-default {
+        min-height: 75px;
+    }
+    
+    .navbar-brand {
+        padding: 12px 15px !important;
+    }
+    
+    .navbar-brand img {
+        max-height: 55px !important;
+        height: 55px !important;
+        width: auto !important;
+        object-fit: contain;
+    }
+}
+
+/* Small to Medium Tablets */
+@media (min-width: 769px) and (max-width: 991px) {
+    .navbar-brand img {
+        max-height: 65px !important;
+        height: 65px !important;
+        width: auto !important;
+        object-fit: contain;
+    }
+}
+
+/* ===================================
+   MOBILE NAVBAR ALIGNMENT FIX
+   =================================== */
+
+
+
+/* Force logo to left corner on all mobile devices */
+@media (max-width: 767px) {
+    /* Remove flexbox centering */
+    .navbar-header {
+        width: 100%;
+        position: relative;
+        display: block !important;
+        height: auto;
+    }
+    
+    /* Logo - HARD LEFT */
+    .navbar-brand {
+        float: left !important;
+        position: absolute !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+        padding-left: 15px !important;
+        text-align: left !important;
+    }
+    
+    /* Hamburger - HARD RIGHT */
+    .navbar-toggle {
+        float: right !important;
+        position: absolute !important;
+        right: 0 !important;
+        margin-right: 15px !important;
+    }
+    
+    /* Clear floats */
+    .navbar-header::after,
+    .navbar-header::before {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* Remove any centering or flex properties */
+    .navbar-default {
+        text-align: left;
+    }
+    
+    .navbar-default .navbar-header {
+        justify-content: flex-start !important;
+    }
+}
+
+/* Extra small devices (320px - 480px) */
+@media (max-width: 480px) {
+    .navbar-default {
+        min-height: 65px;
+        height: auto;
+    }
+    
+    .navbar-header {
+        height: 65px;
+        padding: 0;
+    }
+    
+    .navbar-brand {
+        padding: 8px 0 8px 15px !important;
+        left: 0 !important;
+        position: absolute !important;
+        float: left !important;
+    }
+    
+    .navbar-brand img {
+        max-height: 45px !important;
+        height: 45px !important;
+        width: auto !important;
+        display: block;
+    }
+    
+    .navbar-toggle {
+        margin: 15px 15px 15px 0;
+        right: 0 !important;
+        position: absolute !important;
+    }
+}
+
+/* Small mobile (481px - 600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+    .navbar-default {
+        min-height: 70px;
+    }
+    
+    .navbar-header {
+        height: 70px;
+    }
+    
+    .navbar-brand {
+        padding: 10px 0 10px 15px !important;
+        left: 0 !important;
+    }
+    
+    .navbar-brand img {
+        max-height: 50px !important;
+        height: 50px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 15px 15px 15px 0;
+        right: 0 !important;
+    }
+}
+
+/* Tablets portrait (601px - 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    .navbar-default {
+        min-height: 75px;
+    }
+    
+    .navbar-header {
+        height: 75px;
+    }
+    
+    .navbar-brand {
+        padding: 12px 0 12px 15px !important;
+        left: 0 !important;
+    }
+    
+    .navbar-brand img {
+        max-height: 55px !important;
+        height: 55px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 18px 15px 18px 0;
+        right: 0 !important;
+    }
+}
+
+/* Ultra small devices like Galaxy Fold (280px - 320px) */
+@media (max-width: 320px) {
+    .navbar-brand {
+        padding: 8px 0 8px 10px !important;
+        left: 0 !important;
+    }
+    
+    .navbar-brand img {
+        max-height: 40px !important;
+        height: 40px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 12px 10px 12px 0;
+        right: 0 !important;
+    }
+    
+    .navbar-default {
+        min-height: 60px;
+    }
+    
+    .navbar-header {
+        height: 60px;
+    }
+}
+
+/* Remove any Bootstrap centering classes */
+@media (max-width: 767px) {
+    .navbar-brand.mx-auto {
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+    
+    .text-center .navbar-brand {
+        text-align: left !important;
+    }
+}
+/* ===================================
+   LOGO LEFT - INCREASED PADDING
+   =================================== */
+
+/* Desktop/Laptop - Increased padding */
+@media (min-width: 768px) {
+    .navbar-header {
+        position: relative;
+        float: left;
+        left: auto;
+        transform: none;
+    }
+    
+    .navbar-brand {
+        float: left !important;
+        position: relative !important;
+        left: 0 !important;
+        text-align: left;
+        padding: 20px 30px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        display: block;
+    }
+    
+    /* Navigation items stay on the right */
+    .navbar-nav {
+        float: right;
+    }
+}
+
+/* Tablets and small laptops (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        padding: 18px 25px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 60px !important;
+        height: 60px !important;
+        width: auto;
+    }
+}
+
+/* Standard laptops and desktops (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+        padding: 20px 35px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 70px !important;
+        height: 70px !important;
+        width: auto;
+    }
+}
+
+/* Large desktops (1200px and above) */
+@media (min-width: 1200px) {
+    .navbar-brand {
+        padding: 25px 40px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 80px !important;
+        height: 80px !important;
+        width: auto;
+    }
+}
+
+/* ===================================
+   MOBILE - INCREASED PADDING
+   =================================== */
+
+/* Logo on LEFT for mobile devices */
+@media (max-width: 767px) {
+    .navbar-header {
+        width: 100%;
+        position: relative !important;
+        display: block !important;
+        height: auto;
+        left: auto !important;
+        transform: none !important;
+    }
+    
+    .navbar-brand {
+        float: left !important;
+        position: absolute !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+        padding-left: 20px !important; /* Increased left padding */
+        text-align: left !important;
+    }
+    
+    .navbar-toggle {
+        float: right !important;
+        position: absolute !important;
+        right: 0 !important;
+        margin-right: 20px !important; /* Increased right margin */
+    }
+    
+    .navbar-header::after,
+    .navbar-header::before {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/* Extra small mobile (320px - 480px) */
+@media (max-width: 480px) {
+    .navbar-default {
+        min-height: 70px; /* Increased height for more padding */
+    }
+    
+    .navbar-header {
+        height: 70px;
+    }
+    
+    .navbar-brand {
+        padding: 12px 20px !important; /* Increased padding: top/bottom 12px, left/right 20px */
+    }
+    
+    .navbar-brand img {
+        max-height: 45px !important;
+        height: 45px !important;
+        width: auto;
+    }
+    
+    .navbar-toggle {
+        margin: 17px 20px 17px 0; /* Increased margin */
+    }
+}
+
+/* Small mobile (481px - 600px) */
+@media (min-width: 481px) and (max-width: 600px) {
+    .navbar-default {
+        min-height: 75px;
+    }
+    
+    .navbar-header {
+        height: 75px;
+    }
+    
+    .navbar-brand {
+        padding: 15px 25px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 50px !important;
+        height: 50px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 18px 25px 18px 0;
+    }
+}
+
+/* Tablets portrait (601px - 767px) */
+@media (min-width: 601px) and (max-width: 767px) {
+    .navbar-default {
+        min-height: 80px;
+    }
+    
+    .navbar-header {
+        height: 80px;
+    }
+    
+    .navbar-brand {
+        padding: 18px 30px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 55px !important;
+        height: 55px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 20px 30px 20px 0;
+    }
+}
+
+/* Ultra small devices (Galaxy Fold - 280px - 320px) */
+@media (max-width: 320px) {
+    .navbar-brand {
+        padding: 10px 15px !important; /* Increased padding */
+    }
+    
+    .navbar-brand img {
+        max-height: 40px !important;
+        height: 40px !important;
+    }
+    
+    .navbar-toggle {
+        margin: 15px 15px 15px 0;
+    }
+    
+    .navbar-default {
+        min-height: 65px;
+    }
+    
+    .navbar-header {
+        height: 65px;
+    }
 }
