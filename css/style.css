@@ -1801,7 +1801,7 @@ section.services-section .services-box .services-post .services-content a:hover 
 /* =  Footer
 /*-------------------------------------------------*/
 footer {
-  background: #252525;
+  background: #222222;
   padding-top: 80px;
 }
 footer .footer-widgets {
@@ -1896,7 +1896,7 @@ footer h2:after {
   background: #a0ce4e;
 }
 footer .last-line {
-  background: #111111;
+  background: #222222;
   padding: 25px 0;
 }
 footer .last-line p.copyright {

@@ -293,6 +293,46 @@ $(document).ready(function($) {
 					setTimeout( scrollPage, 100 );
 				}
 			}, false );
+
+			// Safari compatibility: mirror unprefixed styles to -webkit- prefixed
+			function applyWebkitPrefixes(el){
+				if(!el || !el.style) return;
+				var s = el.style;
+				if (s.transform) s.webkitTransform = s.transform;
+				if (s.transition) s.webkitTransition = s.transition;
+				if (s.animation) s.webkitAnimation = s.animation;
+				if (s.clipPath) s.webkitClipPath = s.clipPath;
+			}
+
+			// Initial pass for inline-styled elements
+			try {
+				Array.prototype.forEach.call(document.querySelectorAll('[style]'), applyWebkitPrefixes);
+			} catch(e){}
+
+			// Observe style attribute changes to mirror dynamic updates
+			try {
+				var obs = new MutationObserver(function(mutations){
+					mutations.forEach(function(m){
+						if (m.type === 'attributes' && m.attributeName === 'style') {
+							applyWebkitPrefixes(m.target);
+						}
+					});
+				});
+				obs.observe(document.documentElement, { attributes: true, attributeFilter: ['style'], subtree: true });
+			} catch(e){}
+
+			// Also react on common UI events that change inline styles
+			['mouseover','mouseout','transitionend','animationstart','animationiteration'].forEach(function(evt){
+				document.addEventListener(evt, function(ev){
+					var n = ev.target;
+					var steps = 0;
+					while(n && steps < 5){
+						applyWebkitPrefixes(n);
+						n = n.parentElement;
+						steps++;
+					}
+				}, true);
+			});
 		}
 		
 		function scrollPage() {
