@@ -1,6 +1,6 @@
 # IndusBuildCorp
 
-IndusBuildCorp is a company profile and project showcase website. This repository contains all the necessary HTML, CSS, JavaScript, and assets to present information about Indus Build Corp, its services, completed projects, and contact details.
+IndusBuildCorp is a company profile and project showcase website. This repository contains all the necessary HTML, CSS, JavaScript, and assets to present information about Indus Buildcorp Pvt Ltd, its services, completed projects, and contact details.
 
 ## Project Structure
 
@@ -91,6 +91,6 @@ To view the website, simply open `index.html` in your web browser. All pages are
 
 ## License
 
-This project is proprietary and all rights are reserved by Indus Build Corp. Unauthorized copying, use, modification, or distribution of this project or its contents is strictly prohibited without express written permission from Indus Build Corp.
+This project is proprietary and all rights are reserved by Indus Buildcorp Pvt Ltd. Unauthorized copying, use, modification, or distribution of this project or its contents is strictly prohibited without express written permission from Indus Buildcorp Pvt Ltd.
 
 See the LICENSE file for details.
