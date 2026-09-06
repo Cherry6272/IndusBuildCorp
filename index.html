@@ -1,910 +1,717 @@
-﻿<!doctype html>
-<html lang="en" class="no-js">
-
+<!doctype html>
+<html lang="en">
 <head>
-	<title>Indus Buildcorp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indus Buildcorp | Infrastructure &amp; Construction Company</title>
+  <meta name="description" content="Indus Buildcorp Pvt Ltd is a premier infrastructure, construction, and engineering enterprise with 30+ years of excellence delivering roads, water systems, and commercial projects across India.">
+  <link rel="canonical" href="https://indusbuildcorp.com/">
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description"
-		content="Indus Buildcorp Pvt Ltd specializes in high-quality residential and commercial construction with modern designs.">
+  <!-- Favicon and Site Identity (Fixes Google Search Globe Icon) -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#0b0f17">
 
-	<link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'
-		rel='stylesheet'>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://indusbuildcorp.com/">
+  <meta property="og:site_name" content="Indus Buildcorp Pvt Ltd">
+  <meta property="og:title" content="Indus Buildcorp | Infrastructure &amp; Construction Company">
+  <meta property="og:description" content="30+ years of engineering precision, infrastructure development, and sustainable construction solutions.">
+  <meta property="og:image" content="https://indusbuildcorp.com/images/indusbuildcorp.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
-	<!-- REVOLUTION BANNER CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-	<link rel="icon" type="image/png" href="./images/ibclogo.png">
-	<link rel="shortcut icon" href="./images/ibclogo.png" type="image/x-icon">
-	<link rel="apple-touch-icon" href="./images/ibclogo.png">
-	<link rel="sitemap" type="application/xml" href="https://indusbuildcorp.com/sitemap.xml">
-	<meta property="og:title" content="Indus Buildcorp Pvt Ltd">
-	<meta property="og:description"
-		content="Indus Buildcorp Pvt Ltd specializes in high-quality residential and commercial construction with modern designs and superior engineering.">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://indusbuildcorp.com/">
-	<meta property="og:image" content="https://indusbuildcorp.com/images/ibclogo.png">
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="630">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Indus Buildcorp | Infrastructure &amp; Construction Company">
+  <meta name="twitter:description" content="30+ years of engineering precision, infrastructure development, and sustainable construction solutions.">
+  <meta name="twitter:image" content="https://indusbuildcorp.com/images/indusbuildcorp.png">
 
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/modern-ibc.css">
 
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.migrate.js"></script>
-	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
-	<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
-	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-	<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-	<script src="../maps/api/js?v=3.exp&amp;sensor=false"></script>
-	<script type="text/javascript" src="js/gmap3.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<style>
-		/* Styles the card container for each service */
-		.services-section .services-post {
-			background: #fafafa;
-			border-radius: 12px;
-			overflow: hidden;
-			/* This is essential for the image's corners to be rounded */
-			box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
-			margin-bottom: 30px;
-			transition: transform 0.3s ease, box-shadow 0.3s ease;
-			display: flex;
-			flex-direction: column;
-			height: 100%;
-			/* Ensures all cards in a row have the same height */
-		}
-
-		.services-section .services-post:hover {
-			transform: translateY(-8px);
-			box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-		}
-
-		/* Enforces uniform size and fit for all images within the service posts */
-		.services-section .services-post img {
-			width: 100%;
-			height: 220px;
-			/* A fixed height ensures all images are the same size */
-			object-fit: cover;
-			/* This makes the image cover the area without stretching or distortion */
-			display: block;
-		}
-
-		/* Applies uniform padding for the text content below the image */
-		.services-section .services-content {
-			padding: 25px;
-			flex-grow: 1;
-			/* Allows the content area to expand, pushing the link to the bottom */
-			display: flex;
-			flex-direction: column;
-		}
-
-		.services-section .services-content h2 {
-			font-size: 18px;
-			font-weight: 600;
-			margin-bottom: 10px;
-		}
-
-		.services-section .services-content p {
-			flex-grow: 1;
-			/* Allows the paragraph to take up available space */
-			margin-bottom: 15px;
-		}
-
-		/* Styles the "Read More" link */
-		.services-section .services-content a {
-			font-weight: 500;
-			color: #3498db;
-			text-decoration: none;
-			transition: color 0.3s ease;
-		}
-
-		.services-section .services-content a:hover {
-			color: #2980b9;
-		}
-
-		/* Flexbox for column alignment */
-		.services-section .row {
-			display: flex;
-			flex-wrap: wrap;
-		}
-
-		.services-section .col-md-3 {
-			display: flex;
-			flex-direction: column;
-			padding: 0 15px;
-			/* Adjusts Bootstrap's default padding for better spacing */
-		}
-
-		.portfolio-section {
-			background-color: #222222;
-		}
-
-		/* Portfolio section image fixes */
-		.portfolio-section .project-post .project-gallery {
-			position: relative;
-			overflow: hidden;
-			border-radius: 6px;
-			height: 250px;
-			/* Fixed height for all portfolio items */
-		}
-
-		.portfolio-section .project-post .project-gallery img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-			/* Ensures images cover the area without distortion */
-			object-position: center;
-			/* Centers the image within the container */
-			transition: transform 0.3s ease;
-		}
-
-		/* Hover effect */
-		.portfolio-section .project-post .project-gallery:hover img {
-			transform: scale(1.05);
-		}
-	</style>
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://indusbuildcorp.com/#website",
+        "url": "https://indusbuildcorp.com/",
+        "name": "Indus Buildcorp",
+        "publisher": {
+          "@id": "https://indusbuildcorp.com/#organization"
+        }
+      },
+      {
+        "@type": ["Organization", "GeneralContractor"],
+        "@id": "https://indusbuildcorp.com/#organization",
+        "name": "Indus Buildcorp Pvt Ltd",
+        "alternateName": "Indus Infra Projects Pvt Ltd",
+        "url": "https://indusbuildcorp.com/",
+        "logo": "https://indusbuildcorp.com/images/ibclogo.png",
+        "image": "https://indusbuildcorp.com/images/indusbuildcorp.png",
+        "description": "Indus Buildcorp is a premier Indian infrastructure and engineering enterprise specializing in roads, bridges, water supply systems, underground drainage, and commercial construction.",
+        "telephone": "+91-080-41684646",
+        "email": "info@indusbuildcorp.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bengaluru",
+          "addressRegion": "Karnataka",
+          "addressCountry": "IN"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
-
 <body>
-	<!-- Container -->
-	<div id="container">
-		<!-- Header
-		    ================================================== -->
-
-		<header class="clearfix">
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="top-line">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8">
-								<ul class="info-list">
-									<li>
-										<i class="fa fa-phone"></i>
-										Call us:
-										<span>080-41684646 / 080-41304747</span>
-									</li>
-									<li>
-										<i class="fa fa-envelope-o"></i>
-										Email us:
-										<span>info@indusbuildcorp.com</span>
-									</li>
-									<li>
-										<span>08:00 - 17:00</span>
-									</li>
-								</ul>
-							</div>
-							<div class="col-md-4">
-								<ul class="social-icons">
-									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
-									<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-							data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="index.html"
-							style="display: flex; align-items: center; height: 80px; padding: 5px 0;">
-							<img src="images/ibclogo.png" alt="Indus Buildcorp Logo"
-								style="max-height: 80px; width: auto; max-width: 200px; object-fit: contain;">
-						</a>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a class="active" href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-		</header>
-
-		<!-- End Header -->
-
-
-
-		<!-- home-section 
-			================================================== -->
-		<section id="home-section" class="slider1">
-
-			<!--
-			#################################
-				- THEMEPUNCH BANNER -
-			#################################
-			-->
-			<div class="tp-banner-container">
-				<div class="tp-banner">
-					<ul> <!-- SLIDE  -->
-						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"
-							data-title="Intro Slide">
-							<!-- MAIN IMAGE -->
-							<img src="images/ibcbuilding.jpg" alt="slidebg1" data-bgposition="center top"
-								data-bgfit="cover" data-bgrepeat="no-repeat">
-							<!-- LAYERS -->
-
-							<!-- LAYER NR. 1 -->
-							<div class="tp-caption lft tp-resizeme rs-parallaxlevel-0" data-x="200" data-y="190"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="left-top corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption lfb tp-resizeme rs-parallaxlevel-0" data-x="200" data-y="330"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="left-bottom corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 3 -->
-							<div class="tp-caption lft tp-resizeme rs-parallaxlevel-0" data-x="900" data-y="190"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="right-top corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 4 -->
-							<div class="tp-caption lfb tp-resizeme rs-parallaxlevel-0" data-x="900" data-y="330"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="right-bottom corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 5 -->
-							<div class="tp-caption finewide_medium_white lft tp-resizeme rs-parallaxlevel-0"
-								data-x="335" data-y="270"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1200" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">Great
-								Construction
-							</div>
-
-						</li>
-
-						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"
-							data-title="Intro Slide">
-							<!-- MAIN IMAGE -->
-							<img src="upload/slide/2.jpg" alt="slidebg1" data-bgposition="center top" data-bgfit="cover"
-								data-bgrepeat="no-repeat">
-							<!-- LAYERS -->
-
-							<!-- LAYER NR. 1 -->
-							<div class="tp-caption lft tp-resizeme rs-parallaxlevel-0" data-x="200" data-y="190"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="left-top corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption lfb tp-resizeme rs-parallaxlevel-0" data-x="200" data-y="330"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="left-bottom corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 3 -->
-							<div class="tp-caption lft tp-resizeme rs-parallaxlevel-0" data-x="900" data-y="190"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="right-top corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 4 -->
-							<div class="tp-caption lfb tp-resizeme rs-parallaxlevel-0" data-x="900" data-y="330"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="right-bottom corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 5 -->
-							<div class="tp-caption finewide_medium_white lft tp-resizeme rs-parallaxlevel-0"
-								data-x="340" data-y="270"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1200" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">Believe your
-								dream
-							</div>
-						</li>
-						<!-- SLIDE  -->
-						<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on"
-							data-title="Parallax 3D">
-							<!-- MAIN IMAGE -->
-							<img src="upload/slide/3.jpg" alt="3dbg" data-bgposition="center top" data-bgfit="cover"
-								data-bgrepeat="no-repeat">
-							<!-- LAYERS -->
-
-							<!-- LAYER NR. 1 -->
-							<div class="tp-caption lft tp-resizeme rs-parallaxlevel-0" data-x="200" data-y="190"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="left-top corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption lfb tp-resizeme rs-parallaxlevel-0" data-x="200" data-y="330"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="left-bottom corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 3 -->
-							<div class="tp-caption lft tp-resizeme rs-parallaxlevel-0" data-x="900" data-y="190"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="right-top corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 4 -->
-							<div class="tp-caption lfb tp-resizeme rs-parallaxlevel-0" data-x="900" data-y="330"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span
-									class="right-bottom corner-border"></span>
-							</div>
-
-							<!-- LAYER NR. 5 -->
-							<div class="tp-caption finewide_medium_white lft tp-resizeme rs-parallaxlevel-0"
-								data-x="345" data-y="270"
-								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000" data-start="1200" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
-								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">We have
-								tradition
-							</div>
-						</li>
-					</ul>
-					<div class="tp-bannertimer"></div>
-				</div>
-			</div>
-		</section>
-		<!-- End home section -->
-		<!-- services-section 
-			================================================== -->
-		<section class="services-section">
-			<div class="container">
-				<div class="row">
-					<!-- Service 1 -->
-					<div class="col-md-3">
-						<div class="services-post">
-							<img src="images/home1.png" alt="Residential & Commercial Construction">
-							<div class="services-content">
-								<h2>Residential & Commercial Construction</h2>
-								<p>We specialize in building high-quality residential apartments and durable commercial
-									structures with modern designs and superior engineering.</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Service 2 -->
-					<div class="col-md-3">
-						<div class="services-post">
-							<img src="images/roads.jpg" alt="Roads & Drainage">
-							<div class="services-content">
-								<h2>Roads & Drainage - Planning & Consruction</h2>
-								<p>Expertise in Asphalt & CC road construction and box-type storm water drains, ensuring
-									strong, safe, and long-lasting infrastructure.</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Service 3 -->
-					<div class="col-md-3">
-						<div class="services-post">
-							<img src="images/waternsew.png" alt="Water & Sewage Infrastructure">
-							<div class="services-content">
-								<h2>Water & Sewage Infrastructure</h2>
-								<p>We deliver STP, wet well, and UGD solutions with high efficiency, meeting urban
-									infrastructure and environmental standards.</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Service 4 -->
-					<div class="col-md-3">
-						<div class="services-post">
-							<img src="images/canal.png" alt="Canals & Pipeline Works">
-							<div class="services-content">
-								<h2>Canals & Pipeline Civil Works</h2>
-								<p>Design and execution of canal structures and pipeline networks for reliable water
-									supply and effective distribution systems.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<!-- End services section -->
-
-		<!-- portfolio-section 
-			================================================== -->
-		<section class="portfolio-section">
-			<div class="container">
-				<div class="portfolio-box owl-wrapper">
-					<div class="owl-carousel" data-num="4">
-
-						<div class="item project-post">
-							<div class="project-gallery">
-								<img src="images/Thimmapura_1.png" alt="Thimmapur Lift Irrigation">
-								<div class="hover-box">
-									<div class="inner-hover">
-										<h2><a href="project-thimmapur.html">Thimmapur LI Scheme</a></h2>
-										<span>construction</span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="item project-post">
-							<div class="project-gallery">
-								<img src="images/ugd_tiptur_1.png" alt="Tiptur UGD System">
-								<div class="hover-box">
-									<div class="inner-hover">
-										<h2><a href="project-tiptur-ugd.html">Tiptur UGD System</a></h2>
-										<span>construction</span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="item project-post">
-							<div class="project-gallery">
-								<img src="images/sai_kuteera.png" alt="Sai Kuteer Apartment">
-								<div class="hover-box">
-									<div class="inner-hover">
-										<h2><a href="project-sai-kuteer.html">Sai Kuteer Apartment</a></h2>
-										<span>buildings</span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="item project-post">
-							<div class="project-gallery">
-								<img src="images/nellore_cc_1.png" alt="Nellore CC Roads">
-								<div class="hover-box">
-									<div class="inner-hover">
-										<h2><a href="project-nellore-cc-roads.html">Nellore CC Roads</a></h2>
-										<span>construction</span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="item project-post">
-							<div class="project-gallery">
-								<img src="images/rajiv_pipeline work_1.png" alt="Rajiv Dummagudem Pipeline">
-								<div class="hover-box">
-									<div class="inner-hover">
-										<h2><a href="project-rajiv-dummagudem.html">Rajiv Dummagudem LI</a></h2>
-										<span>construction</span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="item project-post">
-							<div class="project-gallery">
-								<img src="images/Amaravathi.jpeg" alt="Amaravathi Project">
-								<div class="hover-box">
-									<div class="inner-hover">
-										<h2><a href="project-amaravathi.html">Amaravathi Project</a></h2>
-										<span>layout development</span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-		</section>
-		<!-- End portfolio section -->
-
-		<!-- tabs-section 
-			================================================== -->
-		<section class="tabs-section">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-md-7">
-						<div class="about-us-box">
-							<h1>About Us and Our Core Priorities</h1>
-							<p>At Indus Buildcorp, we are dedicated to shaping the future of infrastructure by
-								delivering unparalleled quality, innovation, and sustainability in every project we
-								undertake.</p>
-							<p>Our work is driven by a commitment to architectural excellence, responsible construction
-								practices, and exceptional client service, ensuring every outcome is both durable and
-								efficient.</p>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-building-o"></i></a>
-										<h2>Expert Construction</h2>
-										<span>Residential & Commercial Buildings</span>
-									</div>
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-cogs"></i></a>
-										<h2>Proactive Maintenance</h2>
-										<span>Energy Systems & Structural Repair</span>
-									</div>
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-desktop"></i></a>
-										<h2>Strategic Planning</h2>
-										<span>Innovative Architecture & Design</span>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-users"></i></a>
-										<h2>Our Skilled Team</h2>
-										<span>1000+ Dedicated Professionals</span>
-									</div>
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-leaf"></i></a>
-										<h2>Sustainability Focus</h2>
-										<span>Eco-Friendly Building Practices</span>
-									</div>
-									<div class="about-us-post">
-										<a href="#"><i class="fa fa-check-square-o"></i></a>
-										<h2>Quality Assurance</h2>
-										<span>Commitment to the Highest Standards</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-5">
-						<div class="about-box">
-							<img src="images/whoweare.png" alt="About Indus Buildcorp">
-							<h2>Who We Are</h2>
-							<p>Indus Buildcorp is a forward-thinking infrastructure company driven by a vision to create
-								resilient, innovative, and sustainable structures that serve communities for
-								generations.</p>
-							<p>With decades of combined industry experience, we bring unmatched expertise, a passion for
-								excellence, and a deep commitment to our clients to every project.</p>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-		<!-- End tabs section -->
-
-		<!-- news-section 
-			================================================== -->
-
-		<!-- End news section -->
-
-		<!-- testimonial-section 
-			================================================== -->
-
-		<!-- End testimonial section -->
-
-		<!-- quote-section 
-			================================================== -->
-		<section class="quote-section" style="position: relative; padding: 60px 0;">
-			<div class="container">
-				<div class="row">
-					<!-- Google Maps Column -->
-					<div class="col-sm-7" style="margin-bottom: 30px; display: flex; justify-content: center;">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5947413698605!2d77.5740140736732!3d13.06144811290491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19b0613d9ccf%3A0x25ce28dc8823603b!2sIndusbuildcorp.pvt.ltd!5e0!3m2!1sen!2sin!4v1761758481542!5m2!1sen!2sin"
-							width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-							referrerpolicy="no-referrer-when-downgrade"></iframe>
-					</div>
-					<!-- Contact Form Column -->
-					<div class="col-sm-5">
-						<div class="quote-box" style="margin-left: 0;">
-							<h1>Free quote to contact us</h1>
-
-							<form id="contact-form">
-								<input name="name" id="name" type="text" placeholder="Name">
-								<input name="mail" id="mail" type="text" placeholder="Email">
-								<input name="tel-number" id="tel-number" type="text" placeholder="Phone">
-								<textarea name="comment" id="comment" placeholder="Message"></textarea>
-								<input type="submit" id="submit_contact" value="Send Message">
-								<div id="msg" class="message"></div>
-							</form>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End quote section -->
-
-		<!-- footer 
-			================================================== -->
-		<footer style="background: linear-gradient(135deg, #222222 0%, #34495e 100%); color: #fff; padding: 50px 0 0;">
-			<div class="container">
-				<div class="footer-widgets">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="widgets" style="margin-bottom: 40px;">
-								<h2
-									style="color: #fff; font-size: 24px; font-weight: 600; margin-bottom: 25px; position: relative;">
-									<span
-										style="background: linear-gradient(135deg, #3498db, #5dade2); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">INDUS
-										BUILDCORP</span>
-								</h2>
-								<p style="color: #bdc3c7; line-height: 1.8; margin-bottom: 20px;">Leading infrastructure
-									development company committed to excellence, innovation, and sustainable
-									construction solutions.</p>
-								<div style="margin-top: 25px;">
-									<h4 style="color: #3498db; font-size: 16px; margin-bottom: 15px;">Follow Us</h4>
-									<div style="display: flex; gap: 15px;">
-										<a href="#"
-											style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
-											onmouseover="this.style.background='#3498db'; this.style.color='#fff'"
-											onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i
-												class="fab fa-facebook-f"></i></a>
-										<a href="#"
-											style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
-											onmouseover="this.style.background='#3498db'; this.style.color='#fff'"
-											onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i
-												class="fab fa-twitter"></i></a>
-										<a href="#"
-											style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
-											onmouseover="this.style.background='#3498db'; this.style.color='#fff'"
-											onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i
-												class="fab fa-linkedin-in"></i></a>
-										<a href="#"
-											style="color: #bdc3c7; font-size: 18px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"
-											onmouseover="this.style.background='#3498db'; this.style.color='#fff'"
-											onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#bdc3c7'"><i
-												class="fab fa-instagram"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widgets" style="margin-bottom: 40px;">
-								<h2 style="color: #3498db; font-size: 18px; font-weight: 600; margin-bottom: 25px;">Our
-									Services</h2>
-								<ul style="list-style: none; padding: 0; margin: 0;">
-									<li style="margin-bottom: 12px;"><a href="#"
-											style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;"
-											onmouseover="this.style.color='#3498db'"
-											onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right"
-												style="margin-right: 8px; font-size: 12px;"></i>Infrastructure
-											Development</a></li>
-									<li style="margin-bottom: 12px;"><a href="#"
-											style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;"
-											onmouseover="this.style.color='#3498db'"
-											onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right"
-												style="margin-right: 8px; font-size: 12px;"></i>Road Construction</a>
-									</li>
-									<li style="margin-bottom: 12px;"><a href="#"
-											style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;"
-											onmouseover="this.style.color='#3498db'"
-											onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right"
-												style="margin-right: 8px; font-size: 12px;"></i>Water Management</a>
-									</li>
-									<li style="margin-bottom: 12px;"><a href="#"
-											style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;"
-											onmouseover="this.style.color='#3498db'"
-											onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right"
-												style="margin-right: 8px; font-size: 12px;"></i>Commercial Buildings</a>
-									</li>
-									<li style="margin-bottom: 12px;"><a href="#"
-											style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;"
-											onmouseover="this.style.color='#3498db'"
-											onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right"
-												style="margin-right: 8px; font-size: 12px;"></i>Pipeline Systems</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="widgets" style="margin-bottom: 40px;">
-								<h2 style="color: #3498db; font-size: 18px; font-weight: 600; margin-bottom: 25px;">
-									Quick Links</h2>
-								<ul style="list-style: none; padding: 0; margin: 0;">
-									<li style="margin-bottom: 12px;"><a href="index.html"
-											style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;"
-											onmouseover="this.style.color='#3498db'"
-											onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right"
-												style="margin-right: 8px; font-size: 12px;"></i>Home</a></li>
-									<li style="margin-bottom: 12px;"><a href="about.html"
-											style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;"
-											onmouseover="this.style.color='#3498db'"
-											onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right"
-												style="margin-right: 8px; font-size: 12px;"></i>About Us</a></li>
-									<li style="margin-bottom: 12px;"><a href="projects.html"
-											style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;"
-											onmouseover="this.style.color='#3498db'"
-											onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right"
-												style="margin-right: 8px; font-size: 12px;"></i>Projects</a></li>
-									<li style="margin-bottom: 12px;"><a href="contact.html"
-											style="color: #bdc3c7; text-decoration: none; font-size: 14px; transition: color 0.3s ease;"
-											onmouseover="this.style.color='#3498db'"
-											onmouseout="this.style.color='#bdc3c7'"><i class="fas fa-chevron-right"
-												style="margin-right: 8px; font-size: 12px;"></i>Contact</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widgets info-widget" style="margin-bottom: 40px;">
-								<h2 style="color: #3498db; font-size: 18px; font-weight: 600; margin-bottom: 25px;">
-									Contact Info</h2>
-								<div style="margin-bottom: 15px;">
-									<i class="fas fa-map-marker-alt"
-										style="color: #3498db; margin-right: 10px; width: 16px;"></i>
-									<span style="color: #bdc3c7; font-size: 14px;">Bengaluru, Karnataka, India</span>
-								</div>
-								<div style="margin-bottom: 15px;">
-									<i class="fas fa-phone"
-										style="color: #3498db; margin-right: 10px; width: 16px;"></i>
-									<span style="color: #bdc3c7; font-size: 14px; display: block;">080-41684646</span>
-									<span
-										style="color: #bdc3c7; font-size: 14px; display: block; margin-top: 5px;">080-41304747</span>
-								</div>
-								<div style="margin-bottom: 15px;">
-									<i class="fas fa-envelope"
-										style="color: #3498db; margin-right: 10px; width: 16px;"></i>
-									<span style="color: #bdc3c7; font-size: 14px;">info@indusbuildcorp.com</span>
-								</div>
-								<div style="margin-bottom: 15px;">
-									<i class="fas fa-clock"
-										style="color: #3498db; margin-right: 10px; width: 16px;"></i>
-									<span style="color: #bdc3c7; font-size: 14px;">Mon - Fri: 08:00 - 17:00</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="last-line" style="background: rgba(0,0,0,0.2); padding: 20px 0; margin-top: 40px;">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-md-6">
-							<p class="copyright" style="color: #bdc3c7; margin: 0; font-size: 14px;">
-								&copy; 2024 Indus Buildcorp. All rights reserved.
-							</p>
-						</div>
-						<div class="col-md-6 text-right">
-							<p style="color: #bdc3c7; margin: 0; font-size: 14px;">
-								Designed with <i class="fas fa-heart" style="color: #3498db;"></i> for Excellence
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-		<!-- End footer -->
-
-	</div>
-	<!-- End Container -->
-
-	<!-- Revolution slider -->
-	<script type="text/javascript">
-
-		jQuery(document).ready(function () {
-
-			jQuery('.tp-banner').show().revolution(
-				{
-					dottedOverlay: "none",
-					delay: 10000,
-					startwidth: 1140,
-					startheight: 570,
-					hideThumbs: 200,
-
-					thumbWidth: 100,
-					thumbHeight: 50,
-					thumbAmount: 5,
-
-					navigationType: "none",
-					navigationArrows: "",
-
-					touchenabled: "on",
-					onHoverStop: "off",
-
-					swipe_velocity: 0.7,
-					swipe_min_touches: 1,
-					swipe_max_touches: 1,
-					drag_block_vertical: false,
-
-					parallax: "mouse",
-					parallaxBgFreeze: "on",
-					parallaxLevels: [7, 4, 3, 2, 5, 4, 3, 2, 1, 0],
-
-					keyboardNavigation: "off",
-
-					navigationHAlign: "center",
-					navigationVAlign: "bottom",
-					navigationHOffset: 0,
-					navigationVOffset: 60,
-
-					shadow: 0,
-
-					spinner: "spinner4",
-
-					stopLoop: "off",
-					stopAfterLoops: -1,
-					stopAtSlide: -1,
-
-					shuffle: "off",
-
-					autoHeight: "off",
-					forceFullWidth: "off",
-
-
-
-					hideThumbsOnMobile: "off",
-					hideNavDelayOnMobile: 1500,
-					hideBulletsOnMobile: "off",
-					hideArrowsOnMobile: "off",
-					hideThumbsUnderResolution: 0,
-
-					hideSliderAtLimit: 0,
-					hideCaptionAtLimit: 0,
-					hideAllCaptionAtLilmit: 0,
-					startWithSlide: 0,
-					fullScreenOffsetContainer: ".header"
-				});
-
-		});
-
-	</script>
+  <a href="#main-content" class="ibc-skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="ibc-header-wrap">
+    <!-- Top Announcement Bar -->
+    <div class="ibc-topbar">
+      <div class="ibc-container ibc-topbar-inner">
+        <ul class="ibc-topbar-info">
+          <li class="ibc-topbar-item">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <span>Call us:</span>
+            <a href="tel:08041684646">080-41684646</a> / <a href="tel:08041304747">080-41304747</a>
+          </li>
+          <li class="ibc-topbar-item">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>Email us:</span>
+            <a href="mailto:info@indusbuildcorp.com">info@indusbuildcorp.com</a>
+          </li>
+          <li class="ibc-topbar-item">
+            <i class="fa-regular fa-clock" aria-hidden="true"></i>
+            <span>Mon - Fri: 08:00 - 17:00</span>
+          </li>
+        </ul>
+        <div class="ibc-topbar-social">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="ibc-nav" aria-label="Main Navigation">
+      <div class="ibc-container ibc-nav-inner">
+        <a class="ibc-logo" href="index.html" aria-label="Indus Buildcorp Home">
+          <img src="images/ibclogo.png" alt="Indus Buildcorp Logo" width="60" height="60">
+          <div class="ibc-logo-text">
+            <span class="ibc-logo-title">Indus Buildcorp</span>
+            <span class="ibc-logo-sub">Infrastructure &bull; Engineering</span>
+          </div>
+        </a>
+
+        <ul class="ibc-menu">
+          <li><a class="ibc-menu-link active" href="index.html">Home</a></li>
+          <li><a class="ibc-menu-link" href="about.html">About Us</a></li>
+          <li><a class="ibc-menu-link" href="projects.html">Projects</a></li>
+          <li><a class="ibc-menu-link" href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="ibc-nav-actions">
+          <a class="ibc-btn ibc-btn--primary ibc-btn--discuss" href="#discuss" data-open-modal="project"><i class="fa-solid fa-comments"></i> Discuss a Project</a>
+          <button class="ibc-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="ibc-mobile-drawer" aria-hidden="true">
+    <ul class="ibc-mobile-menu">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="ibc-mobile-contact">
+      <div><strong>Phone:</strong> <a href="tel:08041684646">080-41684646</a> / <a href="tel:08041304747">080-41304747</a></div>
+      <div><strong>Email:</strong> <a href="mailto:info@indusbuildcorp.com">info@indusbuildcorp.com</a></div>
+      <div><strong>Address:</strong> Bengaluru, Karnataka, India</div>
+      <div style="margin-top: 10px;">
+        <a class="ibc-btn ibc-btn--primary ibc-btn--discuss" style="width: 100%; text-align: center;" href="#discuss" data-open-modal="project"><i class="fa-solid fa-comments"></i> Discuss a Project</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Hero Slider Section -->
+    <section class="ibc-hero-slider" aria-label="Featured Infrastructure Showcase">
+      <div class="ibc-hero-slides">
+        <!-- Slide 1: General Infrastructure -->
+        <div class="ibc-hero-slide is-active">
+          <div class="ibc-hero-slide-bg">
+            <img src="images/ibcbuilding.jpg" alt="Indus Buildcorp Corporate & Civil Infrastructure" width="1920" height="1080" fetchpriority="high">
+          </div>
+          <div class="ibc-hero-slide-overlay"></div>
+          <div class="ibc-container ibc-hero-content">
+            <div class="ibc-hero-badge">
+              <i class="fa-solid fa-layer-group"></i>
+              <span>Infrastructure &bull; Construction &bull; Engineering</span>
+            </div>
+            <h1 class="ibc-hero-title">
+              Building Tomorrow's Infrastructure <span>Today</span>
+            </h1>
+            <p class="ibc-hero-subtitle">
+              Indus Buildcorp — Beyond Construction, We Build Legacies. Over three decades of engineering precision delivering critical roads, water systems, lift irrigation, and civil infrastructure across India.
+            </p>
+            <div class="ibc-hero-actions">
+              <a href="projects.html" class="ibc-btn ibc-btn--primary">Explore Our Projects <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#discuss" data-open-modal="project" class="ibc-btn ibc-btn--outline-light"><i class="fa-solid fa-comments"></i> Discuss a Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: Irrigation & Water Infrastructure -->
+        <div class="ibc-hero-slide">
+          <div class="ibc-hero-slide-bg">
+            <img src="images/canal.png" alt="Canal Works & Water Conveyance Systems" width="1920" height="1080" loading="lazy">
+          </div>
+          <div class="ibc-hero-slide-overlay"></div>
+          <div class="ibc-container ibc-hero-content">
+            <div class="ibc-hero-badge">
+              <i class="fa-solid fa-water"></i>
+              <span>Lifeline Water Infrastructure</span>
+            </div>
+            <h2 class="ibc-hero-title">
+              Precision In <span>Lift Irrigation</span> &amp; Canals
+            </h2>
+            <p class="ibc-hero-subtitle">
+              Engineered conveyance systems, 3000mm diameter MS pipelines, pump houses, and trapezoidal canal networks securing water resources for agrarian communities.
+            </p>
+            <div class="ibc-hero-actions">
+              <a href="projects.html?cat=construction" class="ibc-btn ibc-btn--primary">View Irrigation Works <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#discuss" data-open-modal="project" class="ibc-btn ibc-btn--outline-light"><i class="fa-solid fa-comments"></i> Discuss a Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Highways & Roads -->
+        <div class="ibc-hero-slide">
+          <div class="ibc-hero-slide-bg">
+            <img src="images/roads.jpg" alt="Highway & Urban Concrete Road Infrastructure" width="1920" height="1080" loading="lazy">
+          </div>
+          <div class="ibc-hero-slide-overlay"></div>
+          <div class="ibc-container ibc-hero-content">
+            <div class="ibc-hero-badge">
+              <i class="fa-solid fa-road"></i>
+              <span>Highways &amp; Urban Transit</span>
+            </div>
+            <h2 class="ibc-hero-title">
+              Resilient Roads &amp; <span>Urban Drainage</span> Networks
+            </h2>
+            <p class="ibc-hero-subtitle">
+              High-durability Cement Concrete (CC) carriageways, stormwater RCC box drains, and civic corridors engineered for flood resilience and lasting urban mobility.
+            </p>
+            <div class="ibc-hero-actions">
+              <a href="projects.html?cat=construction" class="ibc-btn ibc-btn--primary">Explore Road Projects <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#discuss" data-open-modal="project" class="ibc-btn ibc-btn--outline-light"><i class="fa-solid fa-comments"></i> Discuss a Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4: Structural Landmarks -->
+        <div class="ibc-hero-slide">
+          <div class="ibc-hero-slide-bg">
+            <img src="images/home1.png" alt="Commercial & Residential Construction Projects" width="1920" height="1080" loading="lazy">
+          </div>
+          <div class="ibc-hero-slide-overlay"></div>
+          <div class="ibc-container ibc-hero-content">
+            <div class="ibc-hero-badge">
+              <i class="fa-solid fa-city"></i>
+              <span>Structural &amp; Layout Engineering</span>
+            </div>
+            <h2 class="ibc-hero-title">
+              Modern Landmarks &amp; <span>Smart City</span> Layouts
+            </h2>
+            <p class="ibc-hero-subtitle">
+              From multi-storey residential complexes in Bengaluru to capital-scale 100 Crore layout developments in Amaravathi for APCRDA.
+            </p>
+            <div class="ibc-hero-actions">
+              <a href="projects.html?cat=buildings" class="ibc-btn ibc-btn--primary">View Structural Works <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#discuss" data-open-modal="project" class="ibc-btn ibc-btn--outline-light"><i class="fa-solid fa-comments"></i> Discuss a Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <div class="ibc-hero-arrows">
+        <button class="ibc-hero-arrow ibc-hero-prev" aria-label="Previous Slide">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="ibc-hero-arrow ibc-hero-next" aria-label="Next Slide">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Pagination Indicators -->
+      <div class="ibc-hero-dots" aria-label="Slider Pagination"></div>
+    </section>
+
+    <!-- Dedicated Trust Metrics Bar (Cleanly decoupled to keep imagery visible) -->
+    <section class="ibc-hero-metrics-bar" aria-label="Corporate Track Record">
+      <div class="ibc-container ibc-metrics-grid">
+        <div class="ibc-stat-item">
+          <div class="ibc-stat-icon"><i class="fa-solid fa-award"></i></div>
+          <div class="ibc-stat-info">
+            <span class="ibc-stat-num">30<span>+</span></span>
+            <span class="ibc-stat-label">Years of Excellence</span>
+          </div>
+        </div>
+        <div class="ibc-stat-item">
+          <div class="ibc-stat-icon"><i class="fa-solid fa-users-gear"></i></div>
+          <div class="ibc-stat-info">
+            <span class="ibc-stat-num">1000<span>+</span></span>
+            <span class="ibc-stat-label">Skilled Workforce</span>
+          </div>
+        </div>
+        <div class="ibc-stat-item">
+          <div class="ibc-stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="ibc-stat-info">
+            <span class="ibc-stat-num">100<span>%</span></span>
+            <span class="ibc-stat-label">Quality Assurance</span>
+          </div>
+        </div>
+        <div class="ibc-stat-item">
+          <div class="ibc-stat-icon"><i class="fa-solid fa-building-shield"></i></div>
+          <div class="ibc-stat-info">
+            <span class="ibc-stat-num">14<span>+</span></span>
+            <span class="ibc-stat-label">Major Civil Works</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="ibc-section">
+      <div class="ibc-container">
+        <div class="ibc-section-head">
+          <span class="ibc-badge">Core Capabilities</span>
+          <h2 class="ibc-section-title">Comprehensive Engineering &amp; Construction Solutions</h2>
+          <p class="ibc-section-desc">We deliver robust, high-performance civil engineering solutions designed to withstand environmental challenges and support sustainable urban growth.</p>
+        </div>
+
+        <div class="ibc-services-grid">
+          <!-- Service 1 -->
+          <div class="ibc-service-card">
+            <div class="ibc-service-img-wrap">
+              <img src="images/home1.png" alt="Residential & Commercial Buildings" loading="lazy" width="400" height="220">
+            </div>
+            <div class="ibc-service-body">
+              <h3 class="ibc-service-title">Residential &amp; Commercial Buildings</h3>
+              <p class="ibc-service-text">High-quality residential and commercial construction with modern designs, structural integrity, and premium finishes.</p>
+              <a href="projects.html" class="ibc-service-link">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="ibc-service-card">
+            <div class="ibc-service-img-wrap">
+              <img src="images/roads.jpg" alt="Road Construction & Earthworks" loading="lazy" width="400" height="220">
+            </div>
+            <div class="ibc-service-body">
+              <h3 class="ibc-service-title">Road Construction &amp; Earthworks</h3>
+              <p class="ibc-service-text">Comprehensive highway, asphalt, and concrete pavement construction with advanced heavy machinery and precise grading.</p>
+              <a href="projects.html" class="ibc-service-link">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="ibc-service-card">
+            <div class="ibc-service-img-wrap">
+              <img src="images/waternsew.png" alt="Water Management & Sewerage Networks" loading="lazy" width="400" height="220">
+            </div>
+            <div class="ibc-service-body">
+              <h3 class="ibc-service-title">Water Management &amp; Sewerage</h3>
+              <p class="ibc-service-text">Specialized stormwater drains, sewage treatment systems, and underground drainage for resilient urban infrastructure.</p>
+              <a href="projects.html" class="ibc-service-link">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="ibc-service-card">
+            <div class="ibc-service-img-wrap">
+              <img src="images/canal.png" alt="Canals & Pipeline Civil Works" loading="lazy" width="400" height="220">
+            </div>
+            <div class="ibc-service-body">
+              <h3 class="ibc-service-title">Canals &amp; Pipeline Civil Works</h3>
+              <p class="ibc-service-text">Design and execution of canal structures and pipeline networks for reliable water supply and effective distribution systems.</p>
+              <a href="projects.html" class="ibc-service-link">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Portfolio Section -->
+    <section class="ibc-section ibc-section--dark">
+      <div class="ibc-container">
+        <div class="ibc-section-head">
+          <span class="ibc-badge">Project Portfolio</span>
+          <h2 class="ibc-section-title">Delivering Scale Across Key Infrastructure Sectors</h2>
+          <p class="ibc-section-desc">A selection of major infrastructure, irrigation, drainage, and urban projects executed with engineering excellence.</p>
+        </div>
+
+        <div class="ibc-projects-grid">
+          <!-- Project 1 -->
+          <a href="project-thimmapur.html" class="ibc-project-card">
+            <div class="ibc-project-img-wrap">
+              <span class="ibc-tag-status ibc-tag-status--completed">Completed</span>
+              <span class="ibc-tag-category">Construction</span>
+              <img src="images/Thimmapura_1.png" alt="Thimmapur Lift Irrigation Scheme" loading="lazy" width="400" height="210">
+            </div>
+            <div class="ibc-project-info">
+              <h3 class="ibc-project-title">Thimmapur LI Scheme</h3>
+              <p class="ibc-project-desc">Canal excavation, siphon structures, and water conveyance for KBJNL (Almatti Dam division).</p>
+              <div class="ibc-project-meta">
+                <span class="ibc-project-meta-item"><i class="fa-solid fa-location-dot"></i> Almatti, Bagalkot</span>
+                <span class="ibc-project-meta-val">₹4.0 Cr &bull; KBJNL</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <a href="project-tiptur-ugd.html" class="ibc-project-card">
+            <div class="ibc-project-img-wrap">
+              <span class="ibc-tag-status ibc-tag-status--completed">Completed</span>
+              <span class="ibc-tag-category">Construction</span>
+              <img src="images/ugd_tiptur_1.png" alt="Tiptur UGD System" loading="lazy" width="400" height="210">
+            </div>
+            <div class="ibc-project-info">
+              <h3 class="ibc-project-title">Tiptur UGD System (TPT-1)</h3>
+              <p class="ibc-project-desc">Underground drainage network, wet well construction, and sewage pumping lines under KUIDFC.</p>
+              <div class="ibc-project-meta">
+                <span class="ibc-project-meta-item"><i class="fa-solid fa-location-dot"></i> Tiptur CMC</span>
+                <span class="ibc-project-meta-val">₹9.0 Cr &bull; KUIDFC</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 3 -->
+          <a href="project-sai-kuteer.html" class="ibc-project-card">
+            <div class="ibc-project-img-wrap">
+              <span class="ibc-tag-status ibc-tag-status--completed">Completed</span>
+              <span class="ibc-tag-category">Buildings</span>
+              <img src="images/sai_kuteera.png" alt="Sai Kuteer Apartment" loading="lazy" width="400" height="210">
+            </div>
+            <div class="ibc-project-info">
+              <h3 class="ibc-project-title">Sai Kuteer Apartment</h3>
+              <p class="ibc-project-desc">Premium multi-storey residential structural development with modern amenities in Sahakar Nagar.</p>
+              <div class="ibc-project-meta">
+                <span class="ibc-project-meta-item"><i class="fa-solid fa-location-dot"></i> Sahakar Nagar, Blr</span>
+                <span class="ibc-project-meta-val">₹6.0 Cr</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 4 -->
+          <a href="project-nellore-cc-roads.html" class="ibc-project-card">
+            <div class="ibc-project-img-wrap">
+              <span class="ibc-tag-status ibc-tag-status--completed">Completed</span>
+              <span class="ibc-tag-category">Construction</span>
+              <img src="images/nellore_cc_1.png" alt="Nellore CC Roads" loading="lazy" width="400" height="210">
+            </div>
+            <div class="ibc-project-info">
+              <h3 class="ibc-project-title">Nellore CC Roads &amp; Drains</h3>
+              <p class="ibc-project-desc">High-durability CC carriageways and roadside RCC box drains under the CIIP municipal package.</p>
+              <div class="ibc-project-meta">
+                <span class="ibc-project-meta-item"><i class="fa-solid fa-location-dot"></i> Nellore, AP</span>
+                <span class="ibc-project-meta-val">₹40 Cr &bull; NMC</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 5 -->
+          <a href="project-rajiv-dummagudem.html" class="ibc-project-card">
+            <div class="ibc-project-img-wrap">
+              <span class="ibc-tag-status ibc-tag-status--completed">Completed</span>
+              <span class="ibc-tag-category">Construction</span>
+              <img src="images/rajiv_pipeline work_1.png" alt="Rajiv Dummagudem Pipeline" loading="lazy" width="400" height="210">
+            </div>
+            <div class="ibc-project-info">
+              <h3 class="ibc-project-title">Rajiv Dummagudem LI Pipeline</h3>
+              <p class="ibc-project-desc">Heavy earthwork and laying of 3000 mm diameter Mild Steel (MS) pressure pipelines for MEIL.</p>
+              <div class="ibc-project-meta">
+                <span class="ibc-project-meta-item"><i class="fa-solid fa-location-dot"></i> Khammam, TS</span>
+                <span class="ibc-project-meta-val">₹2.25 Cr &bull; MEIL</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 6 -->
+          <a href="project-amaravathi.html" class="ibc-project-card">
+            <div class="ibc-project-img-wrap">
+              <span class="ibc-tag-status ibc-tag-status--ongoing">Ongoing</span>
+              <span class="ibc-tag-category">Layout Development</span>
+              <img src="images/Amaravathi.jpeg" alt="Amaravathi Project" loading="lazy" width="400" height="210">
+            </div>
+            <div class="ibc-project-info">
+              <h3 class="ibc-project-title">Amaravathi Capital City Pkg</h3>
+              <p class="ibc-project-desc">Major layout formation, arterial corridors, and trunk utilities across Zone 5 Block 5 for APCRDA.</p>
+              <div class="ibc-project-meta">
+                <span class="ibc-project-meta-item"><i class="fa-solid fa-location-dot"></i> Zone 5 Block 5, AP</span>
+                <span class="ibc-project-meta-val">₹100 Cr &bull; APCRDA</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+          <a href="projects.html" class="ibc-btn ibc-btn--primary">View Full Project Portfolio (14 Projects) <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Priorities Section -->
+    <section class="ibc-section ibc-section--muted">
+      <div class="ibc-container">
+        <div class="ibc-intro-grid">
+          <div>
+            <span class="ibc-badge">About Indus Buildcorp</span>
+            <h2 class="ibc-section-title">About Us and Our Core Priorities</h2>
+            <p>
+              At Indus Buildcorp, we are dedicated to shaping the future of infrastructure by delivering unparalleled quality, innovation, and sustainability in every project we undertake.
+            </p>
+            <p>
+              Our work is driven by a commitment to architectural excellence, responsible construction practices, and exceptional client service, ensuring every outcome is both durable and efficient.
+            </p>
+
+            <div class="ibc-priorities-grid" style="grid-template-columns: 1fr 1fr; margin-top: 30px;">
+              <div class="ibc-priority-card">
+                <div class="ibc-priority-icon"><i class="fa-regular fa-building"></i></div>
+                <h3 class="ibc-priority-title">Expert Construction</h3>
+                <p class="ibc-priority-desc">Residential &amp; Commercial Buildings</p>
+              </div>
+
+              <div class="ibc-priority-card">
+                <div class="ibc-priority-icon"><i class="fa-solid fa-gears"></i></div>
+                <h3 class="ibc-priority-title">Proactive Maintenance</h3>
+                <p class="ibc-priority-desc">Energy Systems &amp; Structural Repair</p>
+              </div>
+
+              <div class="ibc-priority-card">
+                <div class="ibc-priority-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                <h3 class="ibc-priority-title">Strategic Planning</h3>
+                <p class="ibc-priority-desc">Innovative Architecture &amp; Design</p>
+              </div>
+
+              <div class="ibc-priority-card">
+                <div class="ibc-priority-icon"><i class="fa-solid fa-users"></i></div>
+                <h3 class="ibc-priority-title">Our Skilled Team</h3>
+                <p class="ibc-priority-desc">1000+ Dedicated Professionals</p>
+              </div>
+
+              <div class="ibc-priority-card">
+                <div class="ibc-priority-icon"><i class="fa-solid fa-leaf"></i></div>
+                <h3 class="ibc-priority-title">Sustainability Focus</h3>
+                <p class="ibc-priority-desc">Eco-Friendly Building Practices</p>
+              </div>
+
+              <div class="ibc-priority-card">
+                <div class="ibc-priority-icon"><i class="fa-regular fa-circle-check"></i></div>
+                <h3 class="ibc-priority-title">Quality Assurance</h3>
+                <p class="ibc-priority-desc">Commitment to the Highest Standards</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="ibc-intro-image-wrap">
+              <img src="images/whoweare.png" alt="Who We Are - Indus Buildcorp" loading="lazy" width="600" height="500">
+              <div class="ibc-badge-experience">
+                <div class="ibc-badge-experience-num">30+</div>
+                <div class="ibc-badge-experience-text">Years of Excellence</div>
+              </div>
+            </div>
+            <div style="background: var(--ibc-white); padding: 32px; border-radius: var(--ibc-radius-lg); border: 1px solid var(--ibc-slate-200); margin-top: 36px; box-shadow: var(--ibc-shadow-sm);">
+              <h3 style="font-size: 1.35rem; margin-bottom: 12px; color: var(--ibc-slate-900);">Who We Are</h3>
+              <p style="margin-bottom: 12px; font-size: 0.95rem;">
+                Indus Buildcorp is a forward-thinking infrastructure company driven by a vision to create resilient, innovative, and sustainable structures that serve communities for generations.
+              </p>
+              <p style="margin-bottom: 0; font-size: 0.95rem;">
+                With decades of combined industry experience, we bring unmatched expertise, a passion for excellence, and a deep commitment to our clients to every project.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inquiry & Location Section -->
+    <section class="ibc-section">
+      <div class="ibc-container">
+        <div class="ibc-section-head">
+          <span class="ibc-badge">Get In Touch</span>
+          <h2 class="ibc-section-title">Free Quote to Contact Us</h2>
+          <p class="ibc-section-desc">Reach out directly to discuss upcoming projects, tender consultations, or engineering collaborations.</p>
+        </div>
+
+        <div class="ibc-contact-grid">
+          <!-- Google Maps Embed Column -->
+          <div class="ibc-map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5947413698605!2d77.5740140736732!3d13.06144811290491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19b0613d9ccf%3A0x25ce28dc8823603b!2sIndusbuildcorp.pvt.ltd!5e0!3m2!1sen!2sin!4v1761758481542!5m2!1sen!2sin"
+              title="Indus Buildcorp Bengaluru Office Location"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="ibc-form-box">
+            <h3 style="font-size: 1.4rem; margin-bottom: 8px;">Let's Discuss Your Project</h3>
+            <p style="font-size: 0.95rem; color: var(--ibc-slate-500); margin-bottom: 24px;">Please fill out your details and our team will get back to you promptly.</p>
+
+            <form id="contact-form" class="ibc-contact-form" novalidate>
+              <div class="ibc-form-group">
+                <label class="ibc-form-label" for="name">Your Name *</label>
+                <input class="ibc-form-input" name="name" id="name" type="text" placeholder="Enter your full name" required>
+                <div class="ibc-form-error">Please enter your name.</div>
+              </div>
+
+              <div class="ibc-form-group">
+                <label class="ibc-form-label" for="mail">Email Address *</label>
+                <input class="ibc-form-input" name="mail" id="mail" type="email" placeholder="example@domain.com" required>
+                <div class="ibc-form-error">Please enter a valid email address.</div>
+              </div>
+
+              <div class="ibc-form-group">
+                <label class="ibc-form-label" for="tel-number">Phone Number *</label>
+                <input class="ibc-form-input" name="tel-number" id="tel-number" type="tel" placeholder="080-41684646 or mobile" required>
+                <div class="ibc-form-error">Please enter a valid telephone number.</div>
+              </div>
+
+              <div class="ibc-form-group">
+                <label class="ibc-form-label" for="comment">Message *</label>
+                <textarea class="ibc-form-textarea" name="comment" id="comment" rows="4" placeholder="Describe your project scope or inquiry..." required></textarea>
+                <div class="ibc-form-error">Please provide a message.</div>
+              </div>
+
+              <button type="submit" id="submit_contact" class="ibc-btn ibc-btn--primary" style="width: 100%;">
+                <i class="fa-regular fa-paper-plane"></i> Send Message
+              </button>
+
+              <div id="msg" class="ibc-form-status" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="ibc-footer">
+    <div class="ibc-container">
+      <div class="ibc-footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="ibc-footer-col">
+          <h3>Indus Buildcorp</h3>
+          <p class="ibc-footer-desc">
+            Leading infrastructure development company committed to excellence, innovation, and sustainable construction solutions across India.
+          </p>
+          <div class="ibc-topbar-social" style="margin-top: 20px;">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Services -->
+        <div class="ibc-footer-col">
+          <h3>Our Services</h3>
+          <ul class="ibc-footer-links">
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: var(--ibc-blue-500);"></i> Infrastructure Development</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: var(--ibc-blue-500);"></i> Road Construction</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: var(--ibc-blue-500);"></i> Water Management</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: var(--ibc-blue-500);"></i> Commercial Buildings</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: var(--ibc-blue-500);"></i> Pipeline Systems</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Links -->
+        <div class="ibc-footer-col">
+          <h3>Quick Links</h3>
+          <ul class="ibc-footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: var(--ibc-blue-500);"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: var(--ibc-blue-500);"></i> About Us</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: var(--ibc-blue-500);"></i> Projects</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right" style="font-size: 0.75rem; color: var(--ibc-blue-500);"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact Info -->
+        <div class="ibc-footer-col">
+          <h3>Contact Info</h3>
+          <ul class="ibc-footer-contact-list">
+            <li class="ibc-footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Bengaluru, Karnataka, India</span>
+            </li>
+            <li class="ibc-footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <a href="tel:08041684646">080-41684646</a><br>
+                <a href="tel:08041304747">080-41304747</a>
+              </div>
+            </li>
+            <li class="ibc-footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:info@indusbuildcorp.com">info@indusbuildcorp.com</a>
+            </li>
+            <li class="ibc-footer-contact-item">
+              <i class="fa-regular fa-clock"></i>
+              <span>Mon - Fri: 08:00 - 17:00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ibc-footer-bottom">
+        <div class="ibc-footer-bottom-inner">
+          <div>
+            &copy; <span class="ibc-current-year">2026</span> Indus Buildcorp Pvt Ltd. All rights reserved.
+          </div>
+          <div>
+            Engineering Precision &bull; Structural Integrity &bull; Built for Excellence
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
-
 </html>
